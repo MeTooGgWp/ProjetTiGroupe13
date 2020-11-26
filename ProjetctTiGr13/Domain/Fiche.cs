@@ -11,15 +11,15 @@ namespace ProjetctTiGr13.Domain
         public string Note { get; set; }
         
         //Composant de la fiche 
-        private BasicCharacterInfo BasicInfo;
-        private HealthPointManager HpManager;
-        private SaveRollManager SaveRolls;
-        private DeathRollManager DeathRolls;
-        private MoneyManager Wallet;
-        private PersonalityAndBackground BackgroundAndTrait;
-        private CharacterMasteries Masteries;
-        private CaracteristicManager Caracteristics;
-        private CharacterStatus Status;
+        public BasicCharacterInfo BasicInfo { get; set; }
+        public HealthPointManager HpManager { get; set; }
+        public SaveRollManager SaveRolls { get; set; }
+        public DeathRollManager DeathRolls { get; set; }
+        public MoneyManager Wallet { get; set; }
+        public PersonalityAndBackground BackgroundAndTrait { get; set; }
+        public CharacterMasteries Masteries { get; set; }
+        public CaracteristicManager Caracteristics { get; set; }
+        public CharacterStatus Status { get; set; }
 
 
         public Fiche()
