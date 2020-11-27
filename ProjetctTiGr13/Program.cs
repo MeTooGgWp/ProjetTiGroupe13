@@ -20,5 +20,6 @@ namespace ProjetctTiGr13
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder => { webBuilder.UseStartup<Startup>(); });
+        //retirer .useUrl si ça ne marche pas
     }
 }
