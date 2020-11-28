@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace ProjetctTiGr13.Controllers
+namespace ProjetctTiGr13.API.Controllers
 {
     [ApiController]
     [Route("[controller]")]

@@ -1,10 +1,9 @@
-﻿
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using ProjetctTiGr13.Helpers;
 using ProjetctTiGr13.Models;
 using ProjetctTiGr13.Services;
 
-namespace ProjetctTiGr13.Controllers
+namespace ProjetctTiGr13.API.Controllers
 {
     [ApiController]
     [Route("[controller]")]

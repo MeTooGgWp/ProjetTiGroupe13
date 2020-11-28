@@ -2,7 +2,7 @@
 
 namespace ProjetctTiGr13.Domain
 {
-    public class Fiche : IFiche
+    public interface IFiche
     {
         public int IdFiche { get; set; }
         public string IdJoueur { get; set; }
@@ -21,23 +21,5 @@ namespace ProjetctTiGr13.Domain
         public CharacterMasteries Masteries { get; set; }
         public CaracteristicManager Caracteristics { get; set; }
         public CharacterStatus Status { get; set; }
-
-
-        public Fiche()
-        {
-            BasicInfo = new BasicCharacterInfo();
-            HpManager = new HealthPointManager();
-            SaveRolls = new SaveRollManager();
-            DeathRolls = new DeathRollManager();
-            Wallet = new MoneyManager();
-            BackgroundAndTrait = new PersonalityAndBackground();
-            Masteries = new CharacterMasteries();
-            Caracteristics = new CaracteristicManager();
-            Status = new CharacterStatus();
-        }
-
-
-
-
     }
 }

@@ -7,6 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using ProjetctTiGr13.Domain;
+using ProjetctTiGr13.Infrastructure;
 
 namespace ProjetctTiGr13
 {
@@ -15,6 +16,8 @@ namespace ProjetctTiGr13
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
+            SqlServerFicheRepository dao = new SqlServerFicheRepository();
+            Console.WriteLine(dao.QueryAll());
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
