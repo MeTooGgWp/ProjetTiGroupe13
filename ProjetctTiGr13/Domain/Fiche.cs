@@ -25,6 +25,12 @@ namespace ProjetctTiGr13.Domain
 
         public Fiche()
         {
+            IdJoueur = "";
+            Equipement = "";
+            CapaciteEtTrait = "";
+            Note = "";
+            
+            
             BasicInfo = new BasicCharacterInfo();
             HpManager = new HealthPointManager();
             SaveRolls = new SaveRollManager();

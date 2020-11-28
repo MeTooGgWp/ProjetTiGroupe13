@@ -9,7 +9,7 @@ namespace ProjetctTiGr13.API.Controllers
 {
     
     [ApiController]
-    [Route("")] //A définir
+   [Route("")] //A définir
     public class FicheController:ControllerBase
     {
         private IFicheRepository _ficheRepository = new SqlServerFicheRepository();
