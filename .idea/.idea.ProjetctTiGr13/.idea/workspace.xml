@@ -8,14 +8,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a47e4d28-07ca-4f9b-8008-fb72bb49fb84" name="Default Changelist" comment="Changement de type des attributs composants de la classe Fiche">
+    <list default="true" id="a47e4d28-07ca-4f9b-8008-fb72bb49fb84" name="Default Changelist" comment="Mise en place d'un DAO pour la fiche (peut être clairement optimisé)&#10;Mise en place d'un controlleur basique pour communiquer &#10;([Route] reste à définir toutefois)">
+      <change afterPath="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/Factories/UserFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/User/IUserReposory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/User/UserRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/User/UserSqlServer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjetctTiGr13/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjetctTiGr13/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjetctTiGr13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjetctTiGr13/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/API/Controllers/FicheController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetctTiGr13/API/Controllers/FicheController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/Domain/Fiche.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetctTiGr13/Domain/Fiche.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/Domain/FicheComponent/PersonalityAndBackground.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetctTiGr13/Domain/FicheComponent/PersonalityAndBackground.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/FicheFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/FicheFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/SqlServerFicheRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/SqlServerFicheRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/API/Controllers/UsersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetctTiGr13/API/Controllers/UsersController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/FicheFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/Factories/FicheFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/IFicheColumnsName.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/Fiche/IFicheColumnsName.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/IFicheFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/Factories/IInstanceFromReaderFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/IFicheRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/Fiche/IFicheRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/SqlServerFicheRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/Fiche/SqlServerFicheRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/Services/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetctTiGr13/Services/UserService.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,17 +32,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/441B1F1D-0007-4533-BF4B-294EFD4F790B/46/MvcCoreLoggerExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/CF23F803-6603-41BB-8074-AD1FFDA9DE78/13/EndpointMiddleware.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C85CE05F-5B24-41A6-8DB9-8F539D664EEF/5A/HttpProtocol.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/AB0E3398-3BC1-4635-8E71-8B916CDB3B04/3/AuthorizationMiddleware.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8A4B78ED-3B89-4C72-B66D-DAF34D43E906/4/Logger.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/F7AFAF01-9550-4C73-87BE-31162333F4B5/6/AuthenticationMiddleware.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/441B1F1D-0007-4533-BF4B-294EFD4F790B/11C/ResourceInvoker.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B9122C9D-8E0F-47D3-9D53-746E4CD7F3B5/E/HostingApplicationDiagnostics.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/441B1F1D-0007-4533-BF4B-294EFD4F790B/6D/ActionEndpointFactory.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B9122C9D-8E0F-47D3-9D53-746E4CD7F3B5/D/HostingApplication.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/A9C37662-579A-499A-A4DE-B3C85349280D/8C/Int32.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -61,12 +57,10 @@
         <option value="$PROJECT_DIR$/ProjetctTiGr13/Properties/launchSettings.json" />
         <option value="$PROJECT_DIR$/ProjetctTiGr13/appsettings.json" />
         <option value="$PROJECT_DIR$/ProjetctTiGr13/Models/AuthenticateRequest.cs" />
-        <option value="$PROJECT_DIR$/ProjetctTiGr13/Services/UserService.cs" />
         <option value="$PROJECT_DIR$/ProjetctTiGr13/Startup.cs" />
         <option value="$PROJECT_DIR$/ProjetctTiGr13/Controllers/UsersController.cs" />
         <option value="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/IFicheColumnsName.cs" />
         <option value="$PROJECT_DIR$/ProjetctTiGr13/Domain/IFiche.cs" />
-        <option value="$PROJECT_DIR$/ProjetctTiGr13/API/Controllers/UsersController.cs" />
         <option value="$PROJECT_DIR$/ProjetctTiGr13/API/Controllers/WeatherForecastController.cs" />
         <option value="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/IFicheRepository.cs" />
         <option value="$PROJECT_DIR$/ProjetctTiGr13/Program.cs" />
@@ -76,6 +70,18 @@
         <option value="$PROJECT_DIR$/ProjetctTiGr13/Domain/FicheComponent/HealthPointManager.cs" />
         <option value="$PROJECT_DIR$/ProjetctTiGr13/API/Controllers/FicheController.cs" />
         <option value="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/FicheFactory.cs" />
+        <option value="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/User/UserSqlServer.cs" />
+        <option value="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/User/IUserFactory.cs" />
+        <option value="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/Factories/IFicheFactory.cs" />
+        <option value="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/Factories/IInstanceFromReaderFactory.cs" />
+        <option value="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/Factories/InstanceFromReaderFactory.cs" />
+        <option value="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/Factories/FicheFactory.cs" />
+        <option value="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/Fiche/SqlServerFicheRepository.cs" />
+        <option value="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/Factories/UserFactory.cs" />
+        <option value="$PROJECT_DIR$/ProjetctTiGr13/API/Controllers/UsersController.cs" />
+        <option value="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/User/IUserReposory.cs" />
+        <option value="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/User/UserRepository.cs" />
+        <option value="$PROJECT_DIR$/ProjetctTiGr13/Services/UserService.cs" />
       </list>
     </option>
   </component>
@@ -306,6 +312,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="207" y="62" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606384098215" />
+    <state x="794" y="221" key="RiderGenerateDialog" timestamp="1606664181970">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="221" key="RiderGenerateDialog/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1606664181970" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1606531903204">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -334,43 +344,29 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/SqlServerFicheRepository.cs</url>
-          <line>248</line>
-          <properties documentPath="D:\Helha\b3\RiderProjects\ProjetTiGroupe13\ProjetctTiGr13\Infrastructure\SqlServerFicheRepository.cs" initialLine="248">
-            <startOffsets>
-              <option value="11921" />
-            </startOffsets>
-            <endOffsets>
-              <option value="11972" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/SqlServerFicheRepository.cs</url>
+          <url>file://$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/Fiche/SqlServerFicheRepository.cs</url>
           <line>250</line>
-          <properties documentPath="D:\Helha\b3\RiderProjects\ProjetTiGroupe13\ProjetctTiGr13\Infrastructure\SqlServerFicheRepository.cs" initialLine="250">
-            <startOffsets>
-              <option value="12003" />
-            </startOffsets>
-            <endOffsets>
-              <option value="12004" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="D:\Helha\b3\RiderProjects\ProjetTiGroupe13\ProjetctTiGr13\Infrastructure\SqlServerFicheRepository.cs" initialLine="250" />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/FicheFactory.cs</url>
+          <url>file://$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/Factories/FicheFactory.cs</url>
           <line>12</line>
-          <properties documentPath="D:\Helha\b3\RiderProjects\ProjetTiGroupe13\ProjetctTiGr13\Infrastructure\FicheFactory.cs" initialLine="10">
+          <properties documentPath="D:\Helha\b3\RiderProjects\ProjetTiGroupe13\ProjetctTiGr13\Infrastructure\FicheFactory.cs" initialLine="10" />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/Fiche/SqlServerFicheRepository.cs</url>
+          <line>248</line>
+          <properties documentPath="G:\Cours\TI\C#ProjectsForTi\ProjetctTiGr13\ProjetctTiGr13\Infrastructure\Fiche\SqlServerFicheRepository.cs" initialLine="248">
             <startOffsets>
-              <option value="324" />
+              <option value="11968" />
             </startOffsets>
             <endOffsets>
-              <option value="6969" />
+              <option value="12032" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="11" />
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

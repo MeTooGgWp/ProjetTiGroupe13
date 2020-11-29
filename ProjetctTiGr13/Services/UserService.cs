@@ -8,6 +8,7 @@ using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using ProjetctTiGr13.Entities;
 using ProjetctTiGr13.Helpers;
+using ProjetctTiGr13.Infrastructure.User;
 using ProjetctTiGr13.Models;
 
 namespace ProjetctTiGr13.Services
@@ -16,12 +17,17 @@ namespace ProjetctTiGr13.Services
     {
         AuthenticateResponse Authenticate(AuthenticateRequest model);
         IEnumerable<User> GetAll();
+
+        public UserRepository GetRepository();
         
         User GetByPseudo(string pseudo);
     }
 
     public class UserService : IUserService
     {
+
+        private UserRepository Repository;
+         
         // users hardcoded for simplicity, store in a db with hashed passwords in production applications
         private List<User> _users = new List<User>
         {
@@ -33,14 +39,17 @@ namespace ProjetctTiGr13.Services
         public UserService(IOptions<AppSettings> appSettings)
         {
             _appSettings = appSettings.Value;
+            Repository = new UserRepository();
         }
 
         public AuthenticateResponse Authenticate(AuthenticateRequest model)
         {
-            var user = _users.SingleOrDefault(x => x.pseudo == model.Pseudo && x.Password == model.Password);
-
-            // return null if user not found
+            var user = Repository.GetByPseudo(model.Pseudo);
+              // return null if user not found
             if (user == null) return null;
+            if (user.Password == model.Password);
+
+          
 
             // authentication successful so generate jwt token
             var token = generateJwtToken(user);
@@ -50,8 +59,7 @@ namespace ProjetctTiGr13.Services
 
         public IEnumerable<User> GetAll()
         {
-            
-            return _users;
+            return Repository.Query().Cast<User>();
         }
 
         public User GetByPseudo(string pseudo)
@@ -74,6 +82,11 @@ namespace ProjetctTiGr13.Services
             };
             var token = tokenHandler.CreateToken(tokenDescriptor);
             return tokenHandler.WriteToken(token);
+        }
+
+        public UserRepository GetRepository()
+        {
+            return Repository;
         }
     }
 }

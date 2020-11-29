@@ -4,7 +4,7 @@ using ProjetctTiGr13.Domain.FicheComponent;
 
 namespace ProjetctTiGr13.Infrastructure
 {
-    public class FicheFactory : IFicheFactory
+    public class FicheFactory : IInstanceFromReaderFactory<IFiche>
     {
         
         public IFiche CreateFromReader(SqlDataReader readert)

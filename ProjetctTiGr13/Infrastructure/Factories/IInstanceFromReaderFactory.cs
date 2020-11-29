@@ -5,10 +5,10 @@ namespace ProjetctTiGr13.Infrastructure
 {
     
     
-    public interface IFicheFactory
+    public interface IInstanceFromReaderFactory<out T>
     {
         //Permet de créer une fiche à partir d'une entrée de la bd
-        IFiche CreateFromReader(SqlDataReader reader);
+        T CreateFromReader(SqlDataReader reader);
 
     }
 }

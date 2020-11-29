@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using ProjetctTiGr13.Entities;
 using ProjetctTiGr13.Helpers;
+using ProjetctTiGr13.Infrastructure.User;
 using ProjetctTiGr13.Models;
 using ProjetctTiGr13.Services;
 
@@ -31,8 +33,27 @@ namespace ProjetctTiGr13.API.Controllers
         [HttpGet]
         public IActionResult GetAll()
         {
-            var users = _userService.GetAll();
-            return Ok(users);
+            return Ok(_userService.GetAll());
         }
+
+        [HttpPost]
+        public ActionResult<User> Create(User user)
+        {
+            return Ok(_userService.GetRepository().Create(user));
+        }
+        
+        
+
+        [HttpPut]
+        public ActionResult<User> Put(User user)
+        {
+            if (_userService.GetRepository().Update(user))
+            {
+                return Ok();
+            }
+
+            return NotFound();
+        }
+        
     }
 }

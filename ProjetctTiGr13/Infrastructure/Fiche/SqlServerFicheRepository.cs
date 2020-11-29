@@ -198,7 +198,7 @@ namespace ProjetctTiGr13.Infrastructure
 
 
         //Afin de pouvoir "créer" un objet fiche à partir des données de la bd :
-        private IFicheFactory _ficheFactory = new FicheFactory();
+        private IInstanceFromReaderFactory<IFiche> _instanceFromReaderFactory = new FicheFactory();
 
         
         
@@ -224,7 +224,7 @@ namespace ProjetctTiGr13.Infrastructure
 
                 while (reader.Read())
                 {
-                    fiches.Add(_ficheFactory.CreateFromReader(reader));
+                    fiches.Add(_instanceFromReaderFactory.CreateFromReader(reader));
                 }
             }
 
@@ -246,7 +246,7 @@ namespace ProjetctTiGr13.Infrastructure
 
                 while (reader.Read())
                 {
-                    fiches.Add(_ficheFactory.CreateFromReader(reader));
+                    fiches.Add(_instanceFromReaderFactory.CreateFromReader(reader));
                 }
             }
 
@@ -266,7 +266,7 @@ namespace ProjetctTiGr13.Infrastructure
 
                 var reader = command.ExecuteReader(CommandBehavior.CloseConnection);
 
-                return reader.Read() ? _ficheFactory.CreateFromReader(reader) : null;
+                return reader.Read() ? _instanceFromReaderFactory.CreateFromReader(reader) : null;
             }
         }
 
