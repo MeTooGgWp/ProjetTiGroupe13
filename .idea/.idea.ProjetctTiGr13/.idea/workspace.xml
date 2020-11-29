@@ -9,22 +9,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a47e4d28-07ca-4f9b-8008-fb72bb49fb84" name="Default Changelist" comment="Changement de type des attributs composants de la classe Fiche">
-      <change afterPath="$PROJECT_DIR$/ProjetctTiGr13/Domain/IFiche.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/Database.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/FicheFactory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/IFicheColumnsName.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/IFicheFactory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/IFicheRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/SqlServerFicheRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjetctTiGr13/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjetctTiGr13/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjetctTiGr13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjetctTiGr13/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/API/Controllers/FicheController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetctTiGr13/API/Controllers/FicheController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/Controllers/UsersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetctTiGr13/API/Controllers/UsersController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/Controllers/WeatherForecastController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetctTiGr13/API/Controllers/WeatherForecastController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/Domain/Fiche.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetctTiGr13/Domain/Fiche.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/Domain/FicheComponent/PersonalityAndBackground.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetctTiGr13/Domain/FicheComponent/PersonalityAndBackground.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetctTiGr13/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/ProjetctTiGr13.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetctTiGr13/ProjetctTiGr13.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/FicheFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/FicheFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/SqlServerFicheRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/SqlServerFicheRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/Services/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetctTiGr13/Services/UserService.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,11 +26,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/441B1F1D-0007-4533-BF4B-294EFD4F790B/46/MvcCoreLoggerExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/CF23F803-6603-41BB-8074-AD1FFDA9DE78/13/EndpointMiddleware.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C85CE05F-5B24-41A6-8DB9-8F539D664EEF/5A/HttpProtocol.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/AB0E3398-3BC1-4635-8E71-8B916CDB3B04/3/AuthorizationMiddleware.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8A4B78ED-3B89-4C72-B66D-DAF34D43E906/4/Logger.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/F7AFAF01-9550-4C73-87BE-31162333F4B5/6/AuthenticationMiddleware.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/441B1F1D-0007-4533-BF4B-294EFD4F790B/11C/ResourceInvoker.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B9122C9D-8E0F-47D3-9D53-746E4CD7F3B5/E/HostingApplicationDiagnostics.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/441B1F1D-0007-4533-BF4B-294EFD4F790B/6D/ActionEndpointFactory.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B9122C9D-8E0F-47D3-9D53-746E4CD7F3B5/D/HostingApplication.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/A9C37662-579A-499A-A4DE-B3C85349280D/8C/Int32.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/ProjetctTiGr13/Domain/FicheComponent/BasicCharacterInfo.cs" />
-        <option value="$PROJECT_DIR$/ProjetctTiGr13/Domain/FicheComponent/HealthPointManager.cs" />
         <option value="$PROJECT_DIR$/ProjetctTiGr13/Domain/FicheComponent/SaveRollManager.cs" />
         <option value="$PROJECT_DIR$/ProjetctTiGr13/Domain/FicheComponent/DeathRollManager.cs" />
         <option value="$PROJECT_DIR$/ProjetctTiGr13/Domain/FicheComponent/MoneyManager.cs" />
@@ -61,16 +65,17 @@
         <option value="$PROJECT_DIR$/ProjetctTiGr13/Startup.cs" />
         <option value="$PROJECT_DIR$/ProjetctTiGr13/Controllers/UsersController.cs" />
         <option value="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/IFicheColumnsName.cs" />
-        <option value="$PROJECT_DIR$/ProjetctTiGr13/Domain/Fiche.cs" />
         <option value="$PROJECT_DIR$/ProjetctTiGr13/Domain/IFiche.cs" />
-        <option value="$PROJECT_DIR$/ProjetctTiGr13/Domain/FicheComponent/PersonalityAndBackground.cs" />
-        <option value="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/FicheFactory.cs" />
         <option value="$PROJECT_DIR$/ProjetctTiGr13/API/Controllers/UsersController.cs" />
         <option value="$PROJECT_DIR$/ProjetctTiGr13/API/Controllers/WeatherForecastController.cs" />
         <option value="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/IFicheRepository.cs" />
-        <option value="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/SqlServerFicheRepository.cs" />
-        <option value="$PROJECT_DIR$/ProjetctTiGr13/API/Controllers/FicheController.cs" />
         <option value="$PROJECT_DIR$/ProjetctTiGr13/Program.cs" />
+        <option value="$PROJECT_DIR$/ProjetctTiGr13/Domain/Fiche.cs" />
+        <option value="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/SqlServerFicheRepository.cs" />
+        <option value="$PROJECT_DIR$/ProjetctTiGr13/Domain/FicheComponent/PersonalityAndBackground.cs" />
+        <option value="$PROJECT_DIR$/ProjetctTiGr13/Domain/FicheComponent/HealthPointManager.cs" />
+        <option value="$PROJECT_DIR$/ProjetctTiGr13/API/Controllers/FicheController.cs" />
+        <option value="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/FicheFactory.cs" />
       </list>
     </option>
   </component>
@@ -81,8 +86,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.48862407" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.26489708" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="XThreadsFramesViewSplitterKey" value="0.35849056" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -194,6 +202,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605700691597" />
+    <state x="779" y="272" width="540" height="495" key="#xdebugger.XInspectDialog" timestamp="1606656349691">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="779" y="272" width="540" height="495" key="#xdebugger.XInspectDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606656349691" />
+    <state width="783" height="466" key="DebuggerActiveHint" timestamp="1606654960175">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="783" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1606654960175" />
     <state x="828" y="417" key="Github.ShareDialog" timestamp="1605696987371">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -202,26 +218,90 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="767" y="225" key="Github.UntrackedFilesDialog/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605696995255" />
-    <state width="1877" height="218" key="GridCell.Tab.0.bottom" timestamp="1606532194401">
+    <state width="916" height="200" key="GridCell.Tab.0.bottom" timestamp="1606660683701">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="218" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1606532194401" />
-    <state width="1877" height="200" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606476928964" />
-    <state width="1877" height="218" key="GridCell.Tab.0.center" timestamp="1606532194401">
+    <state width="916" height="200" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606660683701" />
+    <state width="916" height="200" key="GridCell.Tab.0.center" timestamp="1606660683701">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="218" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1606532194401" />
-    <state width="1877" height="200" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606476928964" />
-    <state width="1877" height="218" key="GridCell.Tab.0.left" timestamp="1606532194401">
+    <state width="916" height="200" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606660683701" />
+    <state width="916" height="200" key="GridCell.Tab.0.left" timestamp="1606660683701">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="218" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1606532194401" />
-    <state width="1877" height="200" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606476928964" />
-    <state width="1877" height="218" key="GridCell.Tab.0.right" timestamp="1606532194401">
+    <state width="916" height="200" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606660683701" />
+    <state width="916" height="200" key="GridCell.Tab.0.right" timestamp="1606660683701">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="218" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1606532194401" />
-    <state width="1877" height="200" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606476928964" />
+    <state width="916" height="200" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606660683701" />
+    <state width="1877" height="325" key="GridCell.Tab.1.bottom" timestamp="1606659617459">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="325" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606659617459" />
+    <state width="1877" height="325" key="GridCell.Tab.1.center" timestamp="1606659617458">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="325" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606659617458" />
+    <state width="1877" height="325" key="GridCell.Tab.1.left" timestamp="1606659617458">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="325" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606659617458" />
+    <state width="1877" height="325" key="GridCell.Tab.1.right" timestamp="1606659617458">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="325" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606659617458" />
+    <state width="1877" height="325" key="GridCell.Tab.2.bottom" timestamp="1606659617460">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="325" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606659617460" />
+    <state width="1877" height="325" key="GridCell.Tab.2.center" timestamp="1606659617459">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="325" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606659617459" />
+    <state width="1877" height="325" key="GridCell.Tab.2.left" timestamp="1606659617459">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="325" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606659617459" />
+    <state width="1877" height="325" key="GridCell.Tab.2.right" timestamp="1606659617459">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="325" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606659617459" />
+    <state width="1877" height="325" key="GridCell.Tab.3.bottom" timestamp="1606659617460">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="325" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606659617460" />
+    <state width="1877" height="325" key="GridCell.Tab.3.center" timestamp="1606659617460">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="325" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606659617460" />
+    <state width="1877" height="325" key="GridCell.Tab.3.left" timestamp="1606659617460">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="325" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606659617460" />
+    <state width="1877" height="325" key="GridCell.Tab.3.right" timestamp="1606659617460">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="325" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606659617460" />
+    <state width="1877" height="325" key="GridCell.Tab.4.bottom" timestamp="1606659617461">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="325" key="GridCell.Tab.4.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606659617461" />
+    <state width="1877" height="325" key="GridCell.Tab.4.center" timestamp="1606659617461">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="325" key="GridCell.Tab.4.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606659617461" />
+    <state width="1877" height="325" key="GridCell.Tab.4.left" timestamp="1606659617460">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="325" key="GridCell.Tab.4.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606659617460" />
+    <state width="1877" height="325" key="GridCell.Tab.4.right" timestamp="1606659617461">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="325" key="GridCell.Tab.4.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606659617461" />
     <state x="207" y="62" key="MergeDialog" timestamp="1606384098215">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -231,6 +311,10 @@
     </state>
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1606531903204" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606377255415" />
+    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1606652735352">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1606652735352" />
     <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606532005781">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -240,9 +324,60 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="421" key="git4idea.remote.GitConfigureRemotesDialog/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605697090079" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1606527698756">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1606653538165">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1606527698756" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606653538165" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/SqlServerFicheRepository.cs</url>
+          <line>248</line>
+          <properties documentPath="D:\Helha\b3\RiderProjects\ProjetTiGroupe13\ProjetctTiGr13\Infrastructure\SqlServerFicheRepository.cs" initialLine="248">
+            <startOffsets>
+              <option value="11921" />
+            </startOffsets>
+            <endOffsets>
+              <option value="11972" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/SqlServerFicheRepository.cs</url>
+          <line>250</line>
+          <properties documentPath="D:\Helha\b3\RiderProjects\ProjetTiGroupe13\ProjetctTiGr13\Infrastructure\SqlServerFicheRepository.cs" initialLine="250">
+            <startOffsets>
+              <option value="12003" />
+            </startOffsets>
+            <endOffsets>
+              <option value="12004" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/FicheFactory.cs</url>
+          <line>12</line>
+          <properties documentPath="D:\Helha\b3\RiderProjects\ProjetTiGroupe13\ProjetctTiGr13\Infrastructure\FicheFactory.cs" initialLine="10">
+            <startOffsets>
+              <option value="324" />
+            </startOffsets>
+            <endOffsets>
+              <option value="6969" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="LaunchSettings">
+        <watch expression="new Fiche&#10;            {&#10;                IdFiche = reader.GetInt32(reader.GetOrdinal(IFicheColumnsName.colId_fiche)),&#10;                IdJoueur = reader.GetString(reader.GetOrdinal(IFicheColumnsName.colId_joueur)),&#10;                Equipement = reader.GetString(reader.GetOrdinal(IFicheColumnsName.colEquipement)),&#10;                CapaciteEtTrait = reader.GetString(reader.GetOrdinal(IFicheColumnsName.colCapacite_et_trait)),&#10;                Note = reader.GetString(reader.GetOrdinal(IFicheColumnsName.colNote_joueur)),&#10;                Inspiration = reader.GetBoolean(reader.GetOrdinal(IFicheColumnsName.colInspiration)),&#10;&#10;&#10;                BasicInfo = new BasicCharacterInfo()&#10;                {&#10;                    Classe = reader.GetString(reader.GetOrdinal(IFicheColumnsName.colClasse)),&#10;                    Niveau = reader.GetByte(reader.GetOrdinal(IFicheColumnsName.colNiveau)),&#10;                    Race = reader.GetString(reader.GetOrdinal(IFicheColumnsName.colRace)),&#10;                    NomPersonnage = reader.GetString(reader.GetOrdinal(IFicheColumnsName.colNom_personnage)),&#10;                    Experience = reader.GetInt32(reader.GetOrdinal(IFicheColumnsName.colExperience))&#10;                },&#10;&#10;&#10;                HpManager = new HealthPointManager&#10;                {&#10;                    CurrentHp = reader.GetInt16(reader.GetOrdinal(IFicheColumnsName.colPv_actuel)),&#10;                    HpDice = reader.GetByte(reader.GetOrdinal(IFicheColumnsName.colDes_de_vie)),&#10;                    MaxHp = reader.GetInt16(reader.GetOrdinal(IFicheColumnsName.colPv_max)),&#10;                    TemporaryHp = reader.GetInt16(reader.GetOrdinal(IFicheColumnsName.colPv_temporaire))&#10;                },&#10;&#10;&#10;                SaveRolls = new SaveRollManager&#10;                {&#10;                    ForceSave = reader.GetBoolean(reader.GetOrdinal(IFicheColumnsName.colJds_force)),&#10;                    DexteriteSave = reader.GetBoolean(reader.GetOrdinal(IFicheColumnsName.colJds_dexterite)),&#10;                    ConstitutionSave =&#10;                        reader.GetBoolean(reader.GetOrdinal(IFicheColumnsName.colJds_constitution)),&#10;                    IntelligenceSave =&#10;                        reader.GetBoolean(reader.GetOrdinal(IFicheColumnsName.colJds_intelligence)),&#10;                    SagesseSave = reader.GetBoolean(reader.GetOrdinal(IFicheColumnsName.colJds_sagesse)),&#10;                    CharismeSave = reader.GetBoolean(reader.GetOrdinal(IFicheColumnsName.colJds_charisme))&#10;                },&#10;&#10;&#10;                DeathRolls = new DeathRollManager&#10;                {&#10;                    SuccessRoll =&#10;                        reader.GetInt32(reader.GetOrdinal(IFicheColumnsName.colSucces_jds_contre_mort)),&#10;                    FailRoll = reader.GetInt32(reader.GetOrdinal(IFicheColumnsName.colEchec_jds_contre_mort))&#10;                },&#10;                &#10;                Wallet = new MoneyManager&#10;                {&#10;                    Cuivre = reader.GetInt32(reader.GetOrdinal(IFicheColumnsName.colPiece_cuivre)),&#10;                    Argent = reader.GetInt32(reader.GetOrdinal(IFicheColumnsName.colPiece_argent)),&#10;                    Or = reader.GetInt32(reader.GetOrdinal(IFicheColumnsName.colPiece_or)),&#10;                    Platine = reader.GetInt32(reader.GetOrdinal(IFicheColumnsName.colPiece_platine)),&#10;                    Electrum = reader.GetInt32(reader.GetOrdinal(IFicheColumnsName.colPiece_electrum))&#10;                },&#10;&#10;                BackgroundAndTrait = new PersonalityAndBackground&#10;                {&#10;                    TraitDePersonnalite =&#10;                        reader.GetString(reader.GetOrdinal(IFicheColumnsName.colTrait_de_personnalite)),&#10;                    Ideaux = reader.GetString(reader.GetOrdinal(IFicheColumnsName.colIdeaux)),&#10;                    Liens = reader.GetString(reader.GetOrdinal(IFicheColumnsName.colLiens)),&#10;                    Defauts = reader.GetString(reader.GetOrdinal(IFicheColumnsName.colDefauts)),&#10;                    Alignement = reader.GetByte(reader.GetOrdinal(IFicheColumnsName.colAlignement)),&#10;                    Historique = reader.GetString(reader.GetOrdinal(IFicheColumnsName.colHistorique)),&#10;                    Age = reader.GetInt32(reader.GetOrdinal(IFicheColumnsName.colAge)),&#10;                    Apparence = reader.GetString(reader.GetOrdinal(IFicheColumnsName.colApparence)),&#10;                    AllieEtOrganisation =&#10;                        reader.GetString(reader.GetOrdinal(IFicheColumnsName.colAllie_et_organisation)),&#10;                    Background = reader.GetString(reader.GetOrdinal(IFicheColumnsName.colBackground))&#10;                },&#10;&#10;                Masteries = new CharacterMasteries&#10;                {&#10;                    Maitrises = reader.GetString(reader.GetOrdinal(IFicheColumnsName.colMaitrises)),&#10;                    Langues = reader.GetString(reader.GetOrdinal(IFicheColumnsName.colLangues))&#10;                },&#10;&#10;                Caracteristics = new CaracteristicManager&#10;                {&#10;                    Force = reader.GetInt32(reader.GetOrdinal(IFicheColumnsName.colForce_carac)),&#10;                    Dexterite = reader.GetInt32(reader.GetOrdinal(IFicheColumnsName.colDexterite_carac)),&#10;                    Constitution = reader.GetInt32(reader.GetOrdinal(IFicheColumnsName.colConstition_carac)),&#10;                    Intelligence = reader.GetInt32(reader.GetOrdinal(IFicheColumnsName.colIntelligence_carac)),&#10;                    Sagesse = reader.GetInt32(reader.GetOrdinal(IFicheColumnsName.colSagesse_carac)),&#10;                    Charisme = reader.GetInt32(reader.GetOrdinal(IFicheColumnsName.colCharisme_carac))&#10;                },&#10;&#10;                Status = new CharacterStatus&#10;                {&#10;                    ClasseArmure = reader.GetInt32(reader.GetOrdinal(IFicheColumnsName.colClasse_armure)),&#10;                    Initiative = reader.GetInt32(reader.GetOrdinal(IFicheColumnsName.colInitiative)),&#10;                    Vitesse = reader.GetFloat(reader.GetOrdinal(IFicheColumnsName.colVitesse))&#10;                }&#10;            }" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

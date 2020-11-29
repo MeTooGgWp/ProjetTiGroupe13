@@ -29,6 +29,7 @@ namespace ProjetctTiGr13.Domain
             Equipement = "";
             CapaciteEtTrait = "";
             Note = "";
+            Inspiration = false;
             
             
             BasicInfo = new BasicCharacterInfo();

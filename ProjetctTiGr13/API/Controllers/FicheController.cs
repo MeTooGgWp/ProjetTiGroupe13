@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
@@ -9,7 +10,7 @@ namespace ProjetctTiGr13.API.Controllers
 {
     
     [ApiController]
-   [Route("")] //A définir
+    [Route("api/fiche")] //A définir
     public class FicheController:ControllerBase
     {
         private IFicheRepository _ficheRepository = new SqlServerFicheRepository();
@@ -22,20 +23,22 @@ namespace ProjetctTiGr13.API.Controllers
         
         
         [HttpGet]
-        public ActionResult<IEnumerable<IFiche>> QueryAllByUser(string pseudo)
+        [Route("{pseudo}")]
+        public ActionResult<IEnumerable<Fiche>> QueryAllByUser(string pseudo)
         {
+            
             return Ok(_ficheRepository.QueryByPlayer(pseudo).Cast<Fiche>());
         }
 
         [HttpPost]
-        public ActionResult<IFiche> Create([FromBody] IFiche fiche)
+        public ActionResult<Fiche> Create([FromBody] Fiche fiche)
         {
             return Ok(_ficheRepository.Create(fiche));
         }
         
         
         [HttpDelete]
-        [Route("")] //A définir
+        [Route("{id_fiche:int}")] //A définir
         public ActionResult Delete(int id_fiche)
         {
             if (_ficheRepository.Delete(id_fiche))
@@ -48,7 +51,7 @@ namespace ProjetctTiGr13.API.Controllers
         
         
         [HttpPut]
-        [Route("")] //A définir
+        [Route("{id_fiche:int}/{id_joueur}")] //A définir
         public ActionResult Put(int id_fiche, string id_joueur, [FromBody] IFiche fiche)
         {
             if (_ficheRepository.Update(id_fiche,id_joueur, fiche))

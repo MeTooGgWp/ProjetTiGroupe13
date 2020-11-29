@@ -50,6 +50,7 @@ namespace ProjetctTiGr13.Services
 
         public IEnumerable<User> GetAll()
         {
+            
             return _users;
         }
 

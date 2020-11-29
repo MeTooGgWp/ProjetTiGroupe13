@@ -6,7 +6,7 @@
         public string Ideaux { get; set; }
         public string Liens { get; set; }
         public string Defauts { get; set; }
-        public string Alignement { get; set; }
+        public int Alignement { get; set; }
         public string Historique { get; set; }
         public int Age { get; set; }
         public string Apparence { get; set; }
@@ -24,6 +24,7 @@
             Apparence = "";
             AllieEtOrganisation = "";
             Background = "";
+            Alignement = 5;
         }
     }
 }

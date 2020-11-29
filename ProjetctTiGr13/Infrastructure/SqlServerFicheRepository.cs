@@ -18,7 +18,7 @@ namespace ProjetctTiGr13.Infrastructure
         //Requête pour avoir toutes les fiches d'un utilisateur :
 
         public static string ReqQueryUser =
-            reqQueryAll + $"where {IFicheColumnsName.colId_joueur} = @{IFicheColumnsName.colId_joueur}";
+            reqQueryAll + $" where {IFicheColumnsName.colId_joueur} = @{IFicheColumnsName.colId_joueur}";
 
         //Requete pour avoir une fiche précise d'un utilisateur (celui connecté en outre):
 
@@ -79,6 +79,7 @@ namespace ProjetctTiGr13.Infrastructure
             {IFicheColumnsName.colNom_personnage},
             {IFicheColumnsName.colExperience},
             {IFicheColumnsName.colNote_joueur}) 
+
         OUTPUT INSERTED.{IFicheColumnsName.colId_fiche}  
         values(
             @{IFicheColumnsName.colId_joueur},
