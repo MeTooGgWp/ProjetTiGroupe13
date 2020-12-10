@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using Models.FicheModel;
-using ProjetctTiGr13.Domain;
-using ProjetctTiGr13.Infrastructure;
 
-namespace ProjetctTiGr13.API.Controllers
+namespace API.Controllers
 {
     
     [ApiController]
@@ -74,7 +70,7 @@ namespace ProjetctTiGr13.API.Controllers
         
         [HttpPut]
         [Route("{id_fiche:int}/{id_joueur}")] //A définir
-        public ActionResult Put(int id_fiche, string id_joueur, [FromBody] IFiche fiche)
+        public ActionResult Put(int id_fiche, string id_joueur, [FromBody] Fiche fiche)
         {
             /*if (_ficheRepository.Update(id_fiche,id_joueur, fiche))
             {

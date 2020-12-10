@@ -10,59 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a47e4d28-07ca-4f9b-8008-fb72bb49fb84" name="Default Changelist" comment="Mise en place des Controlleurs et du dao des users :">
-      <change afterPath="$PROJECT_DIR$/Models/FicheModel/Attaque.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/FicheModel/BasicInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/FicheModel/CaracteristicManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/FicheModel/CharacterMastery.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/FicheModel/CharacterStatus.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/FicheModel/Competence.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/FicheModel/CompetencesFiche.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/FicheModel/Compte.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/FicheModel/DeathrollManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/FicheModel/Fiche.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/FicheModel/HealthPointManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/FicheModel/MoneyManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/FicheModel/PersonalityAndBackground.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/FicheModel/SaveRollsManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/FicheModel/Sort.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/FicheModel/db_fiche_persoContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/Services.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjetctTiGr13/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjetctTiGr13/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjetctTiGr13/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjetctTiGr13/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjetctTiGr13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjetctTiGr13/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13.sln" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetctTiGr13.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/API/Controllers/FicheController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/FicheController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/API/Controllers/UsersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/UsersController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/API/Controllers/WeatherForecastController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/WeatherForecastController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/Domain/Fiche.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/FicheDomain.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/Domain/FicheComponent/BasicCharacterInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/FicheComponent/BasicCharacterInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/Domain/FicheComponent/CaracteristicManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/FicheComponent/CaracteristicManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/Domain/FicheComponent/CharacterMasteries.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/FicheComponent/CharacterMasteries.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/Domain/FicheComponent/CharacterSkill.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/FicheComponent/CharacterSkill.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/Domain/FicheComponent/CharacterStatus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/FicheComponent/CharacterStatus.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/Domain/FicheComponent/DeathRollManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/FicheComponent/DeathRollManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/Domain/FicheComponent/HealthPointManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/FicheComponent/HealthPointManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/Domain/FicheComponent/MoneyManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/FicheComponent/MoneyManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/Domain/FicheComponent/PersonalityAndBackground.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/FicheComponent/PersonalityAndBackground.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/Domain/FicheComponent/SaveRollManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/FicheComponent/SaveRollManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/Domain/IFiche.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/IFiche.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/Entities/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/Database.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Database.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/Factories/FicheFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Factories/FicheFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/Factories/IInstanceFromReaderFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Factories/IInstanceFromReaderFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/Factories/UserFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Factories/UserFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/Fiche/IFicheColumnsName.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Fiche/IFicheColumnsName.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/Fiche/IFicheRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Fiche/IFicheRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/Fiche/SqlServerFicheRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Fiche/SqlServerFicheRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/User/IUserReposory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/User/IUserReposory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/User/UserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/User/UserRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/User/UserSqlServer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/User/UserSqlServer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/Models/AuthenticateRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/AuthenticateRequest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/Models/AuthenticateResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/AuthenticateResponse.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetctTiGr13/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/ProjetctTiGr13.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetctTiGr13/ProjetctTiGr13.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/Services/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetctTiGr13/Services/UserService.cs" afterDir="false" />
+    <list default="true" id="a47e4d28-07ca-4f9b-8008-fb72bb49fb84" name="Default Changelist" comment="Implemention of EntityFramework for testing with postman">
+      <change beforePath="$PROJECT_DIR$/API/Controllers/FicheController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/FicheController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -264,7 +213,7 @@
       <workItem from="1607424400192" duration="1165000" />
       <workItem from="1607425585653" duration="998000" />
       <workItem from="1607616384622" duration="4403000" />
-      <workItem from="1607621759141" duration="2118000" />
+      <workItem from="1607621759141" duration="2822000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1605697115973</created>
@@ -280,14 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606666523640</updated>
     </task>
-    <task id="LOCAL-00003" summary="Changement de type des attributs composants de la classe Fiche">
-      <created>1606383917978</created>
+    <task id="LOCAL-00003" summary="Implemention of EntityFramework for testing with postman">
+      <created>1607624189392</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1606383917978</updated>
+      <updated>1607624189392</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,7 +262,8 @@
     <MESSAGE value="Commit Class Fiche et ses composants (sans DAO)" />
     <MESSAGE value="Changement de type des attributs composants de la classe Fiche" />
     <MESSAGE value="Mise en place des Controlleurs et du dao des users :" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mise en place des Controlleurs et du dao des users :" />
+    <MESSAGE value="Implemention of EntityFramework for testing with postman" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemention of EntityFramework for testing with postman" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605700691597">
@@ -444,10 +394,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607621627737" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1606666537157">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1607624210963">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1606666537157" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607624210963" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606377255415" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1606652735352">
       <screen x="0" y="0" width="1920" height="1040" />
