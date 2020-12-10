@@ -10,7 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a47e4d28-07ca-4f9b-8008-fb72bb49fb84" name="Default Changelist" comment="Implemention of EntityFramework for testing with postman" />
+    <list default="true" id="a47e4d28-07ca-4f9b-8008-fb72bb49fb84" name="Default Changelist" comment="Implemention of EntityFramework for testing with postman&#10;&#10;With the cs project files (sorry)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -211,7 +211,7 @@
       <workItem from="1607424400192" duration="1165000" />
       <workItem from="1607425585653" duration="998000" />
       <workItem from="1607616384622" duration="4403000" />
-      <workItem from="1607621759141" duration="3158000" />
+      <workItem from="1607621759141" duration="3498000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1605697115973</created>
@@ -241,7 +241,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607624806105</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Implemention of EntityFramework for testing with postman&#10;&#10;With the cs project files (sorry)">
+      <created>1607624946208</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607624946208</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Implemention of EntityFramework for testing with postman&#10;&#10;With the cs project files (sorry)">
+      <created>1607625004101</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607625004101</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,7 +282,8 @@
     <MESSAGE value="Changement de type des attributs composants de la classe Fiche" />
     <MESSAGE value="Mise en place des Controlleurs et du dao des users :" />
     <MESSAGE value="Implemention of EntityFramework for testing with postman" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemention of EntityFramework for testing with postman" />
+    <MESSAGE value="Implemention of EntityFramework for testing with postman&#10;&#10;With the cs project files (sorry)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemention of EntityFramework for testing with postman&#10;&#10;With the cs project files (sorry)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605700691597">
@@ -295,28 +310,28 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="767" y="225" key="Github.UntrackedFilesDialog/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605696995255" />
-    <state width="938" height="218" key="GridCell.Tab.0.bottom" timestamp="1607624876797">
+    <state width="938" height="218" key="GridCell.Tab.0.bottom" timestamp="1607624995265">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="218" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607624876797" />
+    <state width="938" height="218" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607624995265" />
     <state width="1877" height="218" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606691278314" />
     <state width="916" height="200" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606660683701" />
-    <state width="938" height="218" key="GridCell.Tab.0.center" timestamp="1607624876796">
+    <state width="938" height="218" key="GridCell.Tab.0.center" timestamp="1607624995265">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="218" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607624876796" />
+    <state width="938" height="218" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607624995265" />
     <state width="1877" height="218" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606691278314" />
     <state width="916" height="200" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606660683701" />
-    <state width="938" height="218" key="GridCell.Tab.0.left" timestamp="1607624876796">
+    <state width="938" height="218" key="GridCell.Tab.0.left" timestamp="1607624995265">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="218" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607624876796" />
+    <state width="938" height="218" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607624995265" />
     <state width="1877" height="218" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606691278313" />
     <state width="916" height="200" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606660683701" />
-    <state width="938" height="218" key="GridCell.Tab.0.right" timestamp="1607624876796">
+    <state width="938" height="218" key="GridCell.Tab.0.right" timestamp="1607624995265">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="218" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607624876796" />
+    <state width="938" height="218" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607624995265" />
     <state width="1877" height="218" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606691278314" />
     <state width="916" height="200" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606660683701" />
     <state width="1877" height="325" key="GridCell.Tab.1.bottom" timestamp="1606659617459">
@@ -399,10 +414,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607621627737" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1607624815219">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1607625008318">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607624815219" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607625008318" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606377255415" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1606652735352">
       <screen x="0" y="0" width="1920" height="1040" />
