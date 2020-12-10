@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Data;
-using ProjetctTiGr13.Infrastructure;
+using Infrastructure.Factories;
 
 namespace Infrastructure.User
 {

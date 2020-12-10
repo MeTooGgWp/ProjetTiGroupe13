@@ -1,7 +1,7 @@
 ﻿using System.Data.SqlClient;
 using Infrastructure.User;
 
-namespace ProjetctTiGr13.Infrastructure
+namespace Infrastructure.Factories
 {
     public class UserFactory : IInstanceFromReaderFactory<Entities.User>
     {

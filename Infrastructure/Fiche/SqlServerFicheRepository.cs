@@ -1,6 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
+using Infrastructure;
+using Infrastructure.Factories;
 using ProjetctTiGr13.Domain;
 
 namespace ProjetctTiGr13.Infrastructure

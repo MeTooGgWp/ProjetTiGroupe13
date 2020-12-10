@@ -1,6 +1,6 @@
 ﻿using System.Data.SqlClient;
 
-namespace ProjetctTiGr13.Infrastructure
+namespace Infrastructure
 {
     public class Database
     {

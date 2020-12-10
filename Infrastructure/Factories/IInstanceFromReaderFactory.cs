@@ -1,7 +1,6 @@
-﻿using ProjetctTiGr13.Domain;
-using System.Data.SqlClient;
+﻿using System.Data.SqlClient;
 
-namespace ProjetctTiGr13.Infrastructure
+namespace Infrastructure.Factories
 {
     
     

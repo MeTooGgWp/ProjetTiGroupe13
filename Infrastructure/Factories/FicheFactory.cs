@@ -1,8 +1,8 @@
 ﻿using System.Data.SqlClient;
 using ProjetctTiGr13.Domain;
-using ProjetctTiGr13.Domain.FicheComponent;
+using ProjetctTiGr13.Infrastructure;
 
-namespace ProjetctTiGr13.Infrastructure
+namespace Infrastructure.Factories
 {
     public class FicheFactory : IInstanceFromReaderFactory<IFiche>
     {
