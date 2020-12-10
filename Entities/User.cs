@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace ProjetctTiGr13.Entities
+namespace Entities
 {
     public class User
     {

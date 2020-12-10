@@ -1,7 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using ProjetctTiGr13.Entities;
+﻿using Entities;
+using Microsoft.AspNetCore.Mvc;
+using Models;
 using ProjetctTiGr13.Helpers;
-using ProjetctTiGr13.Models;
 using ProjetctTiGr13.Services;
 
 namespace API.Controllers

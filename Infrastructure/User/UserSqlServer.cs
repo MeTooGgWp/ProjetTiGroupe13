@@ -1,4 +1,4 @@
-﻿namespace ProjetctTiGr13.Infrastructure.User
+﻿namespace Infrastructure.User
 {
     public static class UserSqlServer
     {

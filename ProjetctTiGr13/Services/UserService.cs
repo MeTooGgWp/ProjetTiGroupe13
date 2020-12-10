@@ -4,12 +4,12 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Security.Claims;
 using System.Text;
+using Entities;
+using Infrastructure.User;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
-using ProjetctTiGr13.Entities;
+using Models;
 using ProjetctTiGr13.Helpers;
-using ProjetctTiGr13.Infrastructure.User;
-using ProjetctTiGr13.Models;
 
 namespace ProjetctTiGr13.Services
 {

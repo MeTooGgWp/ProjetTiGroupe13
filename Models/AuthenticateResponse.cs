@@ -1,6 +1,6 @@
-﻿using ProjetctTiGr13.Entities;
+﻿using Entities;
 
-namespace ProjetctTiGr13.Models
+namespace Models
 {
     public class AuthenticateResponse
     {

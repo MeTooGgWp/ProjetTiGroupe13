@@ -1,7 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Data;
+using ProjetctTiGr13.Infrastructure;
 
-namespace ProjetctTiGr13.Infrastructure.User
+namespace Infrastructure.User
 {
     public class UserRepository : IUserReposory
     {

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace ProjetctTiGr13.Models
+namespace Models
 {
     public class AuthenticateRequest
     {

@@ -1,7 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
-namespace ProjetctTiGr13.Infrastructure.User
+namespace Infrastructure.User
 {
     public interface IUserReposory
     {

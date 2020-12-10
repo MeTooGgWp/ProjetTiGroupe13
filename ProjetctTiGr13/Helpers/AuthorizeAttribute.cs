@@ -1,8 +1,8 @@
 ﻿using System;
+using Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
-using ProjetctTiGr13.Entities;
 
 namespace ProjetctTiGr13.Helpers
 {

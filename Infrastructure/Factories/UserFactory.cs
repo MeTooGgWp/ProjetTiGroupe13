@@ -1,5 +1,5 @@
 ﻿using System.Data.SqlClient;
-using ProjetctTiGr13.Infrastructure.User;
+using Infrastructure.User;
 
 namespace ProjetctTiGr13.Infrastructure
 {
