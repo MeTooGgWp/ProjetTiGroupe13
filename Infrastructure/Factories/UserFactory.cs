@@ -1,5 +1,4 @@
 ﻿using System.Data.SqlClient;
-using System.IO.Pipelines;
 using ProjetctTiGr13.Infrastructure.User;
 
 namespace ProjetctTiGr13.Infrastructure

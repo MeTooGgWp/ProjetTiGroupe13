@@ -2,7 +2,7 @@
 
 namespace ProjetctTiGr13.Domain
 {
-    public class Fiche : IFiche
+    public class FicheDomain : IFiche
     {
         public int IdFiche { get; set; }
         public string IdJoueur { get; set; }
@@ -23,7 +23,7 @@ namespace ProjetctTiGr13.Domain
         public CharacterStatus Status { get; set; }
 
 
-        public Fiche()
+        public FicheDomain()
         {
             IdJoueur = "";
             Equipement = "";

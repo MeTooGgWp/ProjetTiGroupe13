@@ -10,7 +10,7 @@ namespace ProjetctTiGr13.Infrastructure
         public IFiche CreateFromReader(SqlDataReader readert)
         {
             var reader = readert;
-            return new Fiche
+            return new FicheDomain
             {
                 IdFiche = reader.GetInt32(reader.GetOrdinal(IFicheColumnsName.colId_fiche)),
                 IdJoueur = reader.GetString(reader.GetOrdinal(IFicheColumnsName.colId_joueur)),

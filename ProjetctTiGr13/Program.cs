@@ -6,7 +6,6 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using ProjetctTiGr13.API.Controllers;
 using ProjetctTiGr13.Domain;
 using ProjetctTiGr13.Infrastructure;
 
@@ -17,7 +16,7 @@ namespace ProjetctTiGr13
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
-            IFiche fiche = new Fiche();
+            IFiche fiche = new FicheDomain();
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
