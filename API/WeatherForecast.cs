@@ -1,6 +1,6 @@
 using System;
 
-namespace ProjetctTiGr13
+namespace API
 {
     public class WeatherForecast
     {

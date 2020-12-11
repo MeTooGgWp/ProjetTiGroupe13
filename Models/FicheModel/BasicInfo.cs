@@ -1,4 +1,6 @@
-﻿#nullable disable
+﻿using Newtonsoft.Json;
+
+#nullable disable
 
 namespace Models.FicheModel
 {
@@ -8,9 +10,16 @@ namespace Models.FicheModel
         public string Classe { get; set; }
         public byte Niveau { get; set; }
         public string Race { get; set; }
-        public int NomPersonnage { get; set; }
+        public string NomPersonnage { get; set; }
         public int Experience { get; set; }
 
+
+        /*public BasicInfo()
+        {
+            Classe = "";
+        }*/
+        
         public virtual Fiche IdFicheNavigation { get; set; }
+        
     }
 }

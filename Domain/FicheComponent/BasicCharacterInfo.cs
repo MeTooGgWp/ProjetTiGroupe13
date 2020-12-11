@@ -3,10 +3,10 @@
     public class BasicCharacterInfo
     {
         public string Classe { get; set; }
-        public int Niveau { get; set; }
+        public byte Niveau { get; set; }
         public string Race { get; set; }
         public string NomPersonnage { get; set; }
-        public long Experience { get; set;}
+        public int Experience { get; set;}
 
         public BasicCharacterInfo()
         {

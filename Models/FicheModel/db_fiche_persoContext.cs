@@ -6,9 +6,9 @@ namespace Models.FicheModel
 {
     public partial class db_fiche_persoContext : DbContext
     {
-        public db_fiche_persoContext()
+      /*  public db_fiche_persoContext()
         {
-        }
+        }*/
 
         public db_fiche_persoContext(DbContextOptions<db_fiche_persoContext> options)
             : base(options)
@@ -31,14 +31,14 @@ namespace Models.FicheModel
         public virtual DbSet<SaveRollsManager> SaveRollsManagers { get; set; }
         public virtual DbSet<Sort> Sorts { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+      /*  protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
                 optionsBuilder.UseSqlServer("Server=db-fiche-perso.database.windows.net,1433;Database=db_fiche_perso;User Id=louispoulet;Password=ProjetGroupe13");
             }
-        }
+        }*/
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -115,7 +115,7 @@ namespace Models.FicheModel
                     .HasColumnName("race")
                     .HasDefaultValueSql("('')");
 
-                entity.HasOne(d => d.IdFicheNavigation)
+               entity.HasOne(d => d.IdFicheNavigation)
                     .WithOne(p => p.BasicInfo)
                     .HasForeignKey<BasicInfo>(d => d.IdFiche)
                     .HasConstraintName("basic_info_fiche_id_fiche_fk");

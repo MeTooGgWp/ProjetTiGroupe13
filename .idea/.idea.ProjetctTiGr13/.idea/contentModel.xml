@@ -6,12 +6,15 @@
     <e p="G:\Cours\TI\C#ProjectsForTi\ProjetctTiGr13" t="IncludeFlat">
       <e p="API" t="IncludeRecursive">
         <e p="API.csproj" t="IncludeRecursive" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
           <e p="FicheController.cs" t="Include" />
           <e p="UsersController.cs" t="Include" />
           <e p="WeatherForecastController.cs" t="Include" />
         </e>
+        <e p="MappingProfile.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
@@ -20,13 +23,18 @@
           </e>
         </e>
         <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="WeatherForecast.cs" t="Include" />
       </e>
       <e p="Domain" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="Domain.csproj" t="IncludeRecursive" />
         <e p="FicheComponent" t="Include">
           <e p="BasicCharacterInfo.cs" t="Include" />
-          <e p="CaracteristicManager.cs" t="Include" />
+          <e p="CaracteristicsManager.cs" t="Include" />
           <e p="CharacterMasteries.cs" t="Include" />
           <e p="CharacterSkill.cs" t="Include" />
           <e p="CharacterStatus.cs" t="Include" />
@@ -118,8 +126,6 @@
       </e>
       <e p="packages" t="ExcludeRecursive" />
       <e p="ProjetctTiGr13" t="IncludeRecursive">
-        <e p="appsettings.Development.json" t="Include" />
-        <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Helpers" t="Include">
           <e p="AppSettings.cs" t="Include" />
@@ -133,16 +139,10 @@
             </e>
           </e>
         </e>
-        <e p="Program.cs" t="Include" />
         <e p="ProjetctTiGr13.csproj" t="IncludeRecursive" />
-        <e p="Properties" t="Include">
-          <e p="launchSettings.json" t="Include" />
-        </e>
         <e p="Services" t="Include">
           <e p="UserService.cs" t="Include" />
         </e>
-        <e p="Startup.cs" t="Include" />
-        <e p="WeatherForecast.cs" t="Include" />
       </e>
       <e p="ProjetctTiGr13.sln" t="IncludeFlat" />
       <e p="Services" t="IncludeRecursive">

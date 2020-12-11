@@ -12,6 +12,8 @@ namespace Models.FicheModel
             Attaques = new HashSet<Attaque>();
             CompetencesFiches = new HashSet<CompetencesFiche>();
             Sorts = new HashSet<Sort>();
+
+           // BasicInfo = new BasicInfo();
         }
         
 
@@ -35,5 +37,14 @@ namespace Models.FicheModel
         public virtual ICollection<Attaque> Attaques { get; set; }
         public virtual ICollection<CompetencesFiche> CompetencesFiches { get; set; }
         public virtual ICollection<Sort> Sorts { get; set; }
+        
+        public string to_string(){
+            return "" + IdFiche;
+        }
+        
+        
     }
+    
+    
+    
 }

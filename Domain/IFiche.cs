@@ -19,7 +19,7 @@ namespace ProjetctTiGr13.Domain
         public MoneyManager Wallet { get; set; }
         public PersonalityAndBackground BackgroundAndTrait { get; set; }
         public CharacterMasteries Masteries { get; set; }
-        public CaracteristicManager Caracteristics { get; set; }
+        public CaracteristicsManager Caracteristics { get; set; }
         public CharacterStatus Status { get; set; }
     }
 }

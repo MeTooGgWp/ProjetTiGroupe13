@@ -1,7 +1,14 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
+using AutoMapper;
+using Infrastructure.Factories;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Models.FicheModel;
+using ProjetctTiGr13;
+using ProjetctTiGr13.Domain;
+using ProjetctTiGr13.Domain.FicheComponent;
 
 namespace API.Controllers
 {
@@ -10,15 +17,41 @@ namespace API.Controllers
     [Route("api/fiche")] //A définir
     public class FicheController:ControllerBase
     {
-       // private IFicheRepository _ficheRepository = new SqlServerFicheRepository();
-       private db_fiche_persoContext context = new db_fiche_persoContext();
+        private db_fiche_persoContext context;
 
+       public FicheController(db_fiche_persoContext context)
+       {
+           this.context = context;
+       }
+       
+       //Instaciation du mapper (pour convertir objet DTO et objet domain)
+       private static readonly MapperConfiguration _mapperConfiguration = new MapperConfiguration(cfg =>
+       {
+           cfg.AddProfile(new MappingProfile());
+       });
+
+       IMapper mapper = _mapperConfiguration.CreateMapper();
+
+       
+       
+       
+       
+       
+       //DAO
+       
+       
+       
         [HttpGet]
-        public ActionResult<IEnumerable<Fiche>> QueryAll()
-        {
-           // return Ok(_ficheRepository.QueryAll().Cast<Fiche>());
-           var fiches = context.Fiches.ToList();
-           return Ok(fiches);
+        public ActionResult<IEnumerable<FicheDomain>> QueryAll()
+        { 
+            var temp = context.Fiches.ToList();
+          List<FicheDomain> fiches = new List<FicheDomain>();
+         foreach (Fiche f in temp)
+          {
+              var toAdd = mapper.Map<FicheDomain>(f);
+              fiches.Add(toAdd);
+          }
+            return Ok(fiches);
         }
         
         
@@ -26,19 +59,33 @@ namespace API.Controllers
         [Route("{pseudo}")]
         public ActionResult<IEnumerable<Fiche>> QueryAllByUser(string pseudo)
         {
-            
-            //return Ok(_ficheRepository.QueryByPlayer(pseudo).Cast<Fiche>());
             var fiches = context.Fiches
                 .Where(f => f.IdJoueur == pseudo)
                 .ToList();
-            return Ok(fiches);
+            List<FicheDomain> ficheDomains = new List<FicheDomain>();
+            foreach (Fiche f in fiches)
+            {
+                ficheDomains.Add(mapper.Map<FicheDomain>(f));
+            }
+            return Ok(ficheDomains);
+        }
+
+
+        [HttpGet]
+        [Route("{pseudo}/{id}")]
+        public ActionResult<FicheDomain> QueryById(string pseudo, int id)
+        {
+            var fiches = context.Fiches
+                .FirstOrDefault(f => f.IdFiche == id && f.IdJoueur == pseudo);
+            var ficheDomain = mapper.Map<FicheDomain>(fiches);
+            return Ok(ficheDomain);
         }
 
         [HttpPost]
-        public ActionResult<Fiche> Create([FromBody] Fiche fiche)
+        public ActionResult<Fiche> Create(FicheDomain fiche)
         {
-            //return Ok(_ficheRepository.Create(fiche));
-            context.Fiches.Add(fiche);
+            var convert = mapper.Map<Fiche>(fiche);
+            context.Fiches.Add(convert);
             return Ok(context.SaveChanges());
         }
         
@@ -47,35 +94,27 @@ namespace API.Controllers
         [Route("{id_fiche:int}")] //A définir
         public ActionResult Delete(int id_fiche)
         {
-           /* if (_ficheRepository.Delete(id_fiche))
-            {
-                return Ok();
-            }*/
-
-           var listFiche = context.Fiches
-               .Where(f => f.IdFiche == id_fiche)
-               .ToList();
-           if (listFiche.Count == 1)
-           {
-               var toDelete = listFiche[0];
-               context.Fiches.Remove(toDelete);
-               return Ok(context.SaveChanges());
-           }
-           
-           
-
-            return NotFound();
+            var listFiche = context.Fiches
+                .First(f => f.IdFiche == id_fiche);
+           context.Remove<Fiche>(listFiche);
+            return Ok(context.SaveChanges());
         }
         
         
         [HttpPut]
         [Route("{id_fiche:int}/{id_joueur}")] //A définir
-        public ActionResult Put(int id_fiche, string id_joueur, [FromBody] Fiche fiche)
+        public ActionResult Put(int id_fiche, string id_joueur, [FromBody] FicheDomain fiche)
         {
-            /*if (_ficheRepository.Update(id_fiche,id_joueur, fiche))
-            {
-                return Ok();
-            }*/
+            
+            //Récupération de la fiche existante:
+            var toModify = context.Fiches
+                .First(f => f.IdFiche == id_fiche);
+           // fiche.IdFiche = toModify.IdFiche;
+            //Changement pour update
+            mapper.Map<FicheDomain, Fiche>(fiche, toModify);
+            //*******************************
+            return Ok(context.SaveChanges());
+                
             
 
             return NotFound();

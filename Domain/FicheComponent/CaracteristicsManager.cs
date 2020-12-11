@@ -1,6 +1,6 @@
 ﻿namespace ProjetctTiGr13.Domain.FicheComponent
 {
-    public class CaracteristicManager
+    public class CaracteristicsManager
     {
         public int Force { get; set;}
         public int Dexterite { get; set;}
@@ -9,7 +9,7 @@
         public int Sagesse { get; set;}
         public int Charisme { get; set;}
 
-        public CaracteristicManager()
+        public CaracteristicsManager()
         {
             Force = 0;
             Dexterite = 0;

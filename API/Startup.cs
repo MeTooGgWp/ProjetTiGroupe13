@@ -1,18 +1,14 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
+using API;
+using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
+using Models.FicheModel;
+using ProjetctTiGr13.Domain;
+using ProjetctTiGr13.Domain.FicheComponent;
 using ProjetctTiGr13.Helpers;
 using ProjetctTiGr13.Services;
 
@@ -23,6 +19,7 @@ namespace ProjetctTiGr13
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+           
         }
 
         public IConfiguration Configuration { get; }
@@ -38,8 +35,29 @@ namespace ProjetctTiGr13
 
             // configure DI for application services
             services.AddScoped<IUserService, UserService>();
-
+    
+            //Configure entityFrameWork in lazy Loading
+            services.AddControllers();
+            services.AddDbContext<db_fiche_persoContext>(options =>
+                options.UseLazyLoadingProxies()
+                    .UseSqlServer("Server=db-fiche-perso.database.windows.net,1433;Database=db_fiche_perso;User Id=louispoulet;Password=ProjetGroupe13"));
             
+            
+            
+            //Configure automapper
+            
+          /*  var mapperConfiguration = new MapperConfiguration(cfg =>
+            {
+                cfg.AddProfile(new MappingProfile());
+            });
+
+            IMapper mapper = mapperConfiguration.CreateMapper();
+            services.AddSingleton(mapper);
+
+            services.AddMvc();*/
+
+
+
 
 
         }

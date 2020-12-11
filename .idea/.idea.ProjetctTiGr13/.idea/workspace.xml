@@ -10,7 +10,33 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a47e4d28-07ca-4f9b-8008-fb72bb49fb84" name="Default Changelist" comment="Installing nu-get identyModeltoken for everyProject" />
+    <list default="true" id="a47e4d28-07ca-4f9b-8008-fb72bb49fb84" name="Default Changelist" comment="Installing nu-get identyModeltoken for everyProject">
+      <change afterPath="$PROJECT_DIR$/API/MappingProfile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjetctTiGr13/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjetctTiGr13/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjetctTiGr13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjetctTiGr13/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/API/API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Controllers/FicheController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/FicheController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Controllers/WeatherForecastController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/WeatherForecastController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Domain.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/FicheComponent/BasicCharacterInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/FicheComponent/BasicCharacterInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/FicheComponent/CaracteristicManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/FicheComponent/CaracteristicsManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/FicheComponent/CharacterSkill.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/FicheComponent/CharacterSkill.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/FicheDomain.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/FicheDomain.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/IFiche.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/IFiche.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Infrastructure.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/FicheModel/BasicInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/FicheModel/BasicInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/FicheModel/Fiche.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/FicheModel/Fiche.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/FicheModel/db_fiche_persoContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/FicheModel/db_fiche_persoContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Models.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Models.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/ProjetctTiGr13.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetctTiGr13/ProjetctTiGr13.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/WeatherForecast.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/WeatherForecast.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/appsettings.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,23 +48,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ProjetctTiGr13/Domain/FicheComponent/PersonalityAndBackground.cs" />
-        <option value="$PROJECT_DIR$/ProjetctTiGr13/Domain/FicheComponent/HealthPointManager.cs" />
-        <option value="$PROJECT_DIR$/ProjetctTiGr13/API/Controllers/FicheController.cs" />
-        <option value="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/FicheFactory.cs" />
-        <option value="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/User/UserSqlServer.cs" />
-        <option value="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/User/IUserFactory.cs" />
-        <option value="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/Factories/IFicheFactory.cs" />
-        <option value="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/Factories/IInstanceFromReaderFactory.cs" />
-        <option value="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/Factories/InstanceFromReaderFactory.cs" />
-        <option value="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/Factories/FicheFactory.cs" />
-        <option value="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/Fiche/SqlServerFicheRepository.cs" />
-        <option value="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/Factories/UserFactory.cs" />
-        <option value="$PROJECT_DIR$/ProjetctTiGr13/API/Controllers/UsersController.cs" />
         <option value="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/User/IUserReposory.cs" />
         <option value="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/User/UserRepository.cs" />
         <option value="$PROJECT_DIR$/ProjetctTiGr13/Domain/Fiche.cs" />
-        <option value="$PROJECT_DIR$/API/Program.cs" />
         <option value="$PROJECT_DIR$/Domain/Class1.cs" />
         <option value="$PROJECT_DIR$/Infrastructure/Class1.cs" />
         <option value="$PROJECT_DIR$/Entities/Class1.cs" />
@@ -47,7 +59,6 @@
         <option value="$PROJECT_DIR$/Models/Class1.cs" />
         <option value="$PROJECT_DIR$/Service/Class1.cs" />
         <option value="$PROJECT_DIR$/ProjetctTiGr13/Services/UserService.cs" />
-        <option value="$PROJECT_DIR$/Models/FicheModel/BasicInfo.cs" />
         <option value="$PROJECT_DIR$/Models/FicheModel/Attaque.cs" />
         <option value="$PROJECT_DIR$/Models/FicheModel/CaracteristicManager.cs" />
         <option value="$PROJECT_DIR$/Models/FicheModel/CharacterMastery.cs" />
@@ -55,24 +66,39 @@
         <option value="$PROJECT_DIR$/Models/FicheModel/Competence.cs" />
         <option value="$PROJECT_DIR$/Models/FicheModel/CompetencesFiche.cs" />
         <option value="$PROJECT_DIR$/Models/FicheModel/Compte.cs" />
-        <option value="$PROJECT_DIR$/Models/FicheModel/db_fiche_persoContext.cs" />
         <option value="$PROJECT_DIR$/Models/FicheModel/DeathrollManager.cs" />
         <option value="$PROJECT_DIR$/Models/FicheModel/HealthPointManager.cs" />
         <option value="$PROJECT_DIR$/Models/FicheModel/MoneyManager.cs" />
         <option value="$PROJECT_DIR$/Models/FicheModel/PersonalityAndBackground.cs" />
         <option value="$PROJECT_DIR$/Models/FicheModel/SaveRollsManager.cs" />
         <option value="$PROJECT_DIR$/Models/FicheModel/Sort.cs" />
-        <option value="$PROJECT_DIR$/ProjetctTiGr13/Program.cs" />
-        <option value="$PROJECT_DIR$/Domain/FicheDomain.cs" />
-        <option value="$PROJECT_DIR$/Models/FicheModel/Fiche.cs" />
-        <option value="$PROJECT_DIR$/API/Controllers/FicheController.cs" />
-        <option value="$PROJECT_DIR$/API/Controllers/UsersController.cs" />
         <option value="$PROJECT_DIR$/Models/AuthenticateRequest.cs" />
         <option value="$PROJECT_DIR$/Models/AuthenticateResponse.cs" />
         <option value="$PROJECT_DIR$/Infrastructure/User/IUserReposory.cs" />
         <option value="$PROJECT_DIR$/Infrastructure/User/UserRepository.cs" />
         <option value="$PROJECT_DIR$/Infrastructure/User/UserSqlServer.cs" />
         <option value="$PROJECT_DIR$/Entities/User.cs" />
+        <option value="$PROJECT_DIR$/ProjetctTiGr13/Properties/launchSettings.json" />
+        <option value="$PROJECT_DIR$/API/Controllers/UsersController.cs" />
+        <option value="$PROJECT_DIR$/API/Controllers/WeatherForecastController.cs" />
+        <option value="$PROJECT_DIR$/ProjetctTiGr13/Program.cs" />
+        <option value="$PROJECT_DIR$/ProjetctTiGr13/Startup.cs" />
+        <option value="$PROJECT_DIR$/ProjetctTiGr13/WeatherForecast.cs" />
+        <option value="$PROJECT_DIR$/API/WeatherForecast.cs" />
+        <option value="$PROJECT_DIR$/API/Program.cs" />
+        <option value="$PROJECT_DIR$/Domain/FicheComponent/CaracteristicsManager.cs" />
+        <option value="$PROJECT_DIR$/Domain/IFiche.cs" />
+        <option value="$PROJECT_DIR$/Domain/FicheComponent/CharacterSkill.cs" />
+        <option value="$PROJECT_DIR$/Domain/FicheDomain.cs" />
+        <option value="$PROJECT_DIR$/Infrastructure/Factories/FicheFactory.cs" />
+        <option value="$PROJECT_DIR$/Models/FicheModel/BasicInfo.cs" />
+        <option value="$PROJECT_DIR$/Models/FicheModel/db_fiche_persoContext.cs" />
+        <option value="$PROJECT_DIR$/Models/FicheModel/Fiche.cs" />
+        <option value="$PROJECT_DIR$/API/Startup.cs" />
+        <option value="$PROJECT_DIR$/Infrastructure/Factories/FicheAutomatedFactory.cs" />
+        <option value="$PROJECT_DIR$/Domain/FicheComponent/BasicCharacterInfo.cs" />
+        <option value="$PROJECT_DIR$/API/MappingProfile.cs" />
+        <option value="$PROJECT_DIR$/API/Controllers/FicheController.cs" />
       </list>
     </option>
   </component>
@@ -98,11 +124,26 @@
     <property name="settings.editor.selected.configurable" value="RiderNuGetOptionsPageId" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.ProjetctTiGr13">
+  <component name="RunManager" selected=".NET Launch Settings Profile.API">
     <configuration name="API" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/API/API.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
-      <option name="LAUNCH_PROFILE_NAME" value="API" />
+      <option name="LAUNCH_PROFILE_NAME" value="ProjetctTiGr13" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="API: IIS Express (1)" type="LaunchSettings" factoryName=".NET Launch Settings Profile" temporary="true">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/API/API.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
@@ -160,9 +201,9 @@
       </method>
     </configuration>
     <configuration name="ProjetctTiGr13" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
-      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/ProjetctTiGr13/ProjetctTiGr13.csproj" />
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/API/API.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
-      <option name="LAUNCH_PROFILE_NAME" value="ProjetctTiGr13" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
@@ -189,6 +230,11 @@
         <option name="Build" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue=".NET Launch Settings Profile.API: IIS Express (1)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -212,6 +258,7 @@
       <workItem from="1607425585653" duration="998000" />
       <workItem from="1607616384622" duration="4403000" />
       <workItem from="1607621759141" duration="4574000" />
+      <workItem from="1607693327113" duration="18040000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1605697115973</created>
@@ -309,10 +356,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Installing nu-get identyModeltoken for everyProject" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605700691597">
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607629726112">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605700691597" />
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607629726112" />
     <state x="779" y="272" width="540" height="495" key="#xdebugger.XInspectDialog" timestamp="1606656349691">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -333,28 +380,28 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="767" y="225" key="Github.UntrackedFilesDialog/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605696995255" />
-    <state width="938" height="218" key="GridCell.Tab.0.bottom" timestamp="1607626336665">
+    <state width="1085" height="217" key="GridCell.Tab.0.bottom" timestamp="1607722537105">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="218" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607626336665" />
+    <state width="1085" height="217" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607722537105" />
     <state width="1877" height="218" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606691278314" />
     <state width="916" height="200" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606660683701" />
-    <state width="938" height="218" key="GridCell.Tab.0.center" timestamp="1607626336665">
+    <state width="1085" height="217" key="GridCell.Tab.0.center" timestamp="1607722537105">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="218" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607626336665" />
+    <state width="1085" height="217" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607722537105" />
     <state width="1877" height="218" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606691278314" />
     <state width="916" height="200" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606660683701" />
-    <state width="938" height="218" key="GridCell.Tab.0.left" timestamp="1607626336665">
+    <state width="1085" height="217" key="GridCell.Tab.0.left" timestamp="1607722537105">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="218" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607626336665" />
+    <state width="1085" height="217" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607722537105" />
     <state width="1877" height="218" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606691278313" />
     <state width="916" height="200" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606660683701" />
-    <state width="938" height="218" key="GridCell.Tab.0.right" timestamp="1607626336665">
+    <state width="1085" height="217" key="GridCell.Tab.0.right" timestamp="1607722537105">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="218" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607626336665" />
+    <state width="1085" height="217" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607722537105" />
     <state width="1877" height="218" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606691278314" />
     <state width="916" height="200" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606660683701" />
     <state width="1877" height="325" key="GridCell.Tab.1.bottom" timestamp="1606659617459">
@@ -451,6 +498,38 @@
     </state>
     <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1606532005781" />
     <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606383949911" />
+    <state x="-1850" y="162" width="1265" height="783" key="dock-window-1" timestamp="1607699577055">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1850" y="162" width="1265" height="783" key="dock-window-1/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607699577055" />
+    <state x="-1390" y="161" width="1265" height="783" key="dock-window-2" timestamp="1607699577056">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1390" y="161" width="1265" height="783" key="dock-window-2/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607699577056" />
+    <state x="-1932" y="144" width="1265" height="783" key="dock-window-3" timestamp="1607700138435">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1932" y="144" width="1265" height="783" key="dock-window-3/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607700138435" />
+    <state x="-1279" y="145" width="1265" height="783" key="dock-window-4" timestamp="1607700138435">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1279" y="145" width="1265" height="783" key="dock-window-4/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607700138435" />
+    <state x="-1920" y="23" width="1265" height="783" key="dock-window-5" timestamp="1607700138435">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1920" y="23" width="1265" height="783" key="dock-window-5/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607700138435" />
+    <state x="-1309" y="48" width="1265" height="863" key="dock-window-6" timestamp="1607700138435">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1309" y="48" width="1265" height="863" key="dock-window-6/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607700138435" />
+    <state x="-1920" y="0" width="1591" height="783" key="dock-window-7" timestamp="1607700138435">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1920" y="0" width="1591" height="783" key="dock-window-7/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607700138435" />
+    <state x="-1456" y="7" width="1591" height="783" key="dock-window-8" timestamp="1607700138435">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1456" y="7" width="1591" height="783" key="dock-window-8/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607700138435" />
     <state x="638" y="119" width="644" height="801" key="find.popup" timestamp="1607425222865">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
