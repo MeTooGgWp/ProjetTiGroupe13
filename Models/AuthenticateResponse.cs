@@ -4,13 +4,13 @@ namespace Models
 {
     public class AuthenticateResponse
     {
-        public string pseudo { get; set; }
+        public string Pseudo { get; set; }
         public string Token { get; set; }
 
 
         public AuthenticateResponse(User user, string token)
         {
-            pseudo = user.pseudo;
+            Pseudo = user.pseudo;
             Token = token;
         }
     }

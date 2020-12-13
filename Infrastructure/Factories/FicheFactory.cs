@@ -1,6 +1,6 @@
 ﻿using System.Data.SqlClient;
+using Infrastructure.Fiche;
 using ProjetctTiGr13.Domain;
-using ProjetctTiGr13.Infrastructure;
 
 namespace Infrastructure.Factories
 {

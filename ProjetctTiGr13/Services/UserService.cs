@@ -47,14 +47,12 @@ namespace ProjetctTiGr13.Services
             var user = Repository.GetByPseudo(model.Pseudo);
               // return null if user not found
             if (user == null) return null;
-            if (user.Password == model.Password);
-
-          
-
+            if (user.Password != model.Password) return null;
             // authentication successful so generate jwt token
             var token = GenerateJwtToken(user);
 
             return new AuthenticateResponse(user, token);
+
         }
 
         public IEnumerable<User> GetAll()
@@ -64,7 +62,7 @@ namespace ProjetctTiGr13.Services
 
         public User GetByPseudo(string pseudo)
         {
-            return _users.FirstOrDefault(x => x.pseudo == pseudo);
+            return GetAll().FirstOrDefault(x => x.pseudo == pseudo);
         }
 
         // helper methods

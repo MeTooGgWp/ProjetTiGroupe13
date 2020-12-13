@@ -28,7 +28,7 @@ namespace API.Controllers
             return Ok(response);
         }
         
-        [Authorize]
+        
         [HttpGet]
         public IActionResult GetAll()
         {
@@ -42,7 +42,7 @@ namespace API.Controllers
         }
         
         
-
+        [Authorize]
         [HttpPut]
         public ActionResult<User> Put(User user)
         {

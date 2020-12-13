@@ -1,11 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
-using Infrastructure;
 using Infrastructure.Factories;
 using ProjetctTiGr13.Domain;
 
-namespace ProjetctTiGr13.Infrastructure
+namespace Infrastructure.Fiche
 {
 
     //c'est avec cette classe que nous allons inscrire les requêtes sql

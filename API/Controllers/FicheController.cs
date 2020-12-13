@@ -9,6 +9,7 @@ using Models.FicheModel;
 using ProjetctTiGr13;
 using ProjetctTiGr13.Domain;
 using ProjetctTiGr13.Domain.FicheComponent;
+using ProjetctTiGr13.Helpers;
 
 namespace API.Controllers
 {
@@ -40,7 +41,7 @@ namespace API.Controllers
        //DAO
        
        
-       
+        
         [HttpGet]
         public ActionResult<IEnumerable<FicheDomain>> QueryAll()
         { 
@@ -54,7 +55,7 @@ namespace API.Controllers
             return Ok(fiches);
         }
         
-        
+        [Authorize]
         [HttpGet]
         [Route("{pseudo}")]
         public ActionResult<IEnumerable<Fiche>> QueryAllByUser(string pseudo)
@@ -70,7 +71,7 @@ namespace API.Controllers
             return Ok(ficheDomains);
         }
 
-
+        [Authorize]
         [HttpGet]
         [Route("{pseudo}/{id}")]
         public ActionResult<FicheDomain> QueryById(string pseudo, int id)
@@ -80,7 +81,7 @@ namespace API.Controllers
             var ficheDomain = mapper.Map<FicheDomain>(fiches);
             return Ok(ficheDomain);
         }
-
+        [Authorize]
         [HttpPost]
         public ActionResult<Fiche> Create(FicheDomain fiche)
         {
@@ -89,7 +90,7 @@ namespace API.Controllers
             return Ok(context.SaveChanges());
         }
         
-        
+        [Authorize]
         [HttpDelete]
         [Route("{id_fiche:int}")] //A définir
         public ActionResult Delete(int id_fiche)
@@ -100,7 +101,7 @@ namespace API.Controllers
             return Ok(context.SaveChanges());
         }
         
-        
+        [Authorize]
         [HttpPut]
         [Route("{id_fiche:int}/{id_joueur}")] //A définir
         public ActionResult Put(int id_fiche, string id_joueur, [FromBody] FicheDomain fiche)

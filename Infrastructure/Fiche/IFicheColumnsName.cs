@@ -1,4 +1,4 @@
-﻿namespace ProjetctTiGr13.Infrastructure
+﻿namespace Infrastructure.Fiche
 {
     
     //Cette classe sert à "définir" les colonnes pour la bd

@@ -1,8 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using ProjetctTiGr13.Domain;
 
-namespace ProjetctTiGr13.Infrastructure
+namespace Infrastructure.Fiche
 {
     public interface IFicheRepository
     {

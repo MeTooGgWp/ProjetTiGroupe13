@@ -6,7 +6,7 @@ namespace Entities
     {
         public string pseudo { get; set; }
         public string mail { get; set; }
-        [JsonIgnore]
+        
         public string Password { get; set; }
     }
 }

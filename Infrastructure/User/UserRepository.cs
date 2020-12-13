@@ -62,7 +62,7 @@ namespace Infrastructure.User
                 cmd.Parameters.AddWithValue($"@{UserSqlServer.ColPseudo}", user.pseudo);
                 cmd.Parameters.AddWithValue($"@{UserSqlServer.ColIdentifiant}", user.mail);
                 cmd.Parameters.AddWithValue($"@{UserSqlServer.ColMdp}", user.Password);
-                
+                cmd.ExecuteNonQuery() ;
             }
 
             return user;
