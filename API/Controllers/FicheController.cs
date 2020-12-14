@@ -55,7 +55,7 @@ namespace API.Controllers
             return Ok(fiches);
         }
         
-        [Authorize]
+       // [Authorize]
         [HttpGet]
         [Route("{pseudo}")]
         public ActionResult<IEnumerable<Fiche>> QueryAllByUser(string pseudo)
@@ -71,7 +71,7 @@ namespace API.Controllers
             return Ok(ficheDomains);
         }
 
-        [Authorize]
+       // [Authorize]
         [HttpGet]
         [Route("{pseudo}/{id}")]
         public ActionResult<FicheDomain> QueryById(string pseudo, int id)
