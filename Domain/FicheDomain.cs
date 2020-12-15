@@ -1,4 +1,5 @@
-﻿using ProjetctTiGr13.Domain.FicheComponent;
+﻿using System.Collections.Generic;
+using ProjetctTiGr13.Domain.FicheComponent;
 
 namespace ProjetctTiGr13.Domain
 {
@@ -10,6 +11,14 @@ namespace ProjetctTiGr13.Domain
         public string CapaciteEtTrait { get; set; }
         public string Note { get; set; }
         public bool Inspiration { get; set; }
+        
+        //Composants basés sur des listes :
+
+        public List<Attaque> Attaques { get; set; }
+        public List<Competence> Competences { get; set; } //Ne garde que l'id de la compétence
+        public List<Sort> Sorts { get; set; }
+
+        //*********************************
         
         //Composant de la fiche 
         public BasicCharacterInfo BasicInfo { get; set; }
@@ -30,6 +39,11 @@ namespace ProjetctTiGr13.Domain
             CapaciteEtTrait = "";
             Note = "";
             Inspiration = false;
+            
+            //Instanciation des liste (vide par défaut)
+            Sorts = new List<Sort>();
+            Attaques = new List<Attaque>();
+            Competences = new List<Competence>();
             
             
             BasicInfo = new BasicCharacterInfo();

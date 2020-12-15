@@ -33,16 +33,19 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Domain.csproj" t="IncludeRecursive" />
         <e p="FicheComponent" t="Include">
+          <e p="Attaque.cs" t="Include" />
           <e p="BasicCharacterInfo.cs" t="Include" />
           <e p="CaracteristicsManager.cs" t="Include" />
           <e p="CharacterMasteries.cs" t="Include" />
           <e p="CharacterSkill.cs" t="Include" />
           <e p="CharacterStatus.cs" t="Include" />
+          <e p="Competence.cs" t="Include" />
           <e p="DeathRollManager.cs" t="Include" />
           <e p="HealthPointManager.cs" t="Include" />
           <e p="MoneyManager.cs" t="Include" />
           <e p="PersonalityAndBackground.cs" t="Include" />
           <e p="SaveRollManager.cs" t="Include" />
+          <e p="Sort.cs" t="Include" />
         </e>
         <e p="FicheDomain.cs" t="Include" />
         <e p="IFiche.cs" t="Include" />

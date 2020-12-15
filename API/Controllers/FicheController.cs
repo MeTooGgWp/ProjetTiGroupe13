@@ -81,7 +81,7 @@ namespace API.Controllers
             var ficheDomain = mapper.Map<FicheDomain>(fiches);
             return Ok(ficheDomain);
         }
-        [Authorize]
+       // [Authorize]
         [HttpPost]
         public ActionResult<Fiche> Create(FicheDomain fiche)
         {
@@ -90,7 +90,7 @@ namespace API.Controllers
             return Ok(context.SaveChanges());
         }
         
-        [Authorize]
+     //   [Authorize]
         [HttpDelete]
         [Route("{id_fiche:int}")] //A définir
         public ActionResult Delete(int id_fiche)
@@ -101,15 +101,15 @@ namespace API.Controllers
             return Ok(context.SaveChanges());
         }
         
-        [Authorize]
+       // [Authorize]
         [HttpPut]
         [Route("{id_fiche:int}/{id_joueur}")] //A définir
-        public ActionResult Put(int id_fiche, string id_joueur, [FromBody] FicheDomain fiche)
+        public ActionResult Put([FromBody] FicheDomain fiche)
         {
             
             //Récupération de la fiche existante:
             var toModify = context.Fiches
-                .First(f => f.IdFiche == id_fiche);
+                .First(f => f.IdFiche == fiche.IdFiche);
            // fiche.IdFiche = toModify.IdFiche;
             //Changement pour update
             mapper.Map<FicheDomain, Fiche>(fiche, toModify);

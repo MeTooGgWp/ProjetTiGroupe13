@@ -2,10 +2,13 @@
 using Models.FicheModel;
 using ProjetctTiGr13.Domain;
 using ProjetctTiGr13.Domain.FicheComponent;
+using Attaque = ProjetctTiGr13.Domain.FicheComponent.Attaque;
 using CharacterStatus = ProjetctTiGr13.Domain.FicheComponent.CharacterStatus;
+using Competence = ProjetctTiGr13.Domain.FicheComponent.Competence;
 using HealthPointManager = ProjetctTiGr13.Domain.FicheComponent.HealthPointManager;
 using MoneyManager = ProjetctTiGr13.Domain.FicheComponent.MoneyManager;
 using PersonalityAndBackground = ProjetctTiGr13.Domain.FicheComponent.PersonalityAndBackground;
+using Sort = ProjetctTiGr13.Domain.FicheComponent.Sort;
 
 namespace API
 {
@@ -33,28 +36,32 @@ namespace API
                 .ForMember(dest => dest.BackgroundAndTrait,
                     act => act.MapFrom(src => src.PersonalityAndBackground))
                 .ForMember(dest => dest.SaveRolls,
-                    act => act.MapFrom(src => src.SaveRollsManager));
+                    act => act.MapFrom(src => src.SaveRollsManager))
+                .ForMember(dest => dest.Competences,
+                    act => act.MapFrom(src => src.CompetencesFiches));
             CreateMap<FicheDomain, Fiche>()
-                .ForMember(dest => dest.NoteJoueur, 
+                .ForMember(dest => dest.NoteJoueur,
                     act => act.MapFrom(src => src.Note))
                 .ForMember(dest => dest.CaracteristicManager,
-                act => act.MapFrom(src => src.Caracteristics))
+                    act => act.MapFrom(src => src.Caracteristics))
                 .ForMember(dest => dest.CharacterMastery,
-                act => act.MapFrom(src => src.Masteries))
-                .ForMember(dest=>dest.CharacterStatus,
-                    act=>act.MapFrom(src=>src.Status))
-                .ForMember(dest=>dest.DeathrollManager,
-                    act=>act.MapFrom(src=>src.DeathRolls))
-                .ForMember(dest=>dest.HealthPointManager,
-                    act=>act.MapFrom(src=>src.HpManager))
-                .ForMember(dest=>dest.MoneyManager,
-                    act=>act.MapFrom(src=>src.Wallet))
-                .ForMember(dest=>dest.PersonalityAndBackground,
-                    act=>act.MapFrom(src=>src.BackgroundAndTrait))
+                    act => act.MapFrom(src => src.Masteries))
+                .ForMember(dest => dest.CharacterStatus,
+                    act => act.MapFrom(src => src.Status))
+                .ForMember(dest => dest.DeathrollManager,
+                    act => act.MapFrom(src => src.DeathRolls))
+                .ForMember(dest => dest.HealthPointManager,
+                    act => act.MapFrom(src => src.HpManager))
+                .ForMember(dest => dest.MoneyManager,
+                    act => act.MapFrom(src => src.Wallet))
+                .ForMember(dest => dest.PersonalityAndBackground,
+                    act => act.MapFrom(src => src.BackgroundAndTrait))
                 .ForMember(dest => dest.SaveRollsManager,
                     act => act.MapFrom(src => src.SaveRolls))
+                .ForMember(dest=>dest.CompetencesFiches,
+                    act=>act.MapFrom(src=>src.Competences))
                 .ForMember(dest => dest.IdFiche, act => act.Ignore());
-            
+
             //Pour que les noms concorde
 
             CreateMap<BasicInfo, BasicCharacterInfo>();
@@ -157,6 +164,16 @@ namespace API
                     act => act.MapFrom(src => src.SagesseSave))
                 .ForMember(dest => dest.JdsCharisme,
                     act => act.MapFrom(src => src.CharismeSave));
+
+
+            CreateMap<Models.FicheModel.Attaque, Attaque>();
+            CreateMap<Attaque, Models.FicheModel.Attaque>();
+
+            CreateMap<Models.FicheModel.Sort, Sort>();
+            CreateMap<Sort, Models.FicheModel.Sort>();
+
+            CreateMap<CompetencesFiche, Competence>();
+            CreateMap<Competence, CompetencesFiche>();
 
         }
     }

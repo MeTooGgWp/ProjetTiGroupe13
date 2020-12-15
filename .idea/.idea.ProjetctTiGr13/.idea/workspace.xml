@@ -10,10 +10,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a47e4d28-07ca-4f9b-8008-fb72bb49fb84" name="Default Changelist" comment="Phase finale du serveur">
+    <list default="true" id="a47e4d28-07ca-4f9b-8008-fb72bb49fb84" name="Default Changelist" comment="Project initialisation">
+      <change afterPath="$PROJECT_DIR$/Domain/FicheComponent/Attaque.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/FicheComponent/Competence.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/FicheComponent/Sort.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjetctTiGr13/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjetctTiGr13/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjetctTiGr13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjetctTiGr13/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/Controllers/FicheController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/FicheController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/MappingProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/MappingProfile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/FicheDomain.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/FicheDomain.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +31,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/User/IUserReposory.cs" />
-        <option value="$PROJECT_DIR$/ProjetctTiGr13/Infrastructure/User/UserRepository.cs" />
-        <option value="$PROJECT_DIR$/ProjetctTiGr13/Domain/Fiche.cs" />
         <option value="$PROJECT_DIR$/Domain/Class1.cs" />
         <option value="$PROJECT_DIR$/Infrastructure/Class1.cs" />
         <option value="$PROJECT_DIR$/Entities/Class1.cs" />
@@ -64,7 +66,6 @@
         <option value="$PROJECT_DIR$/Domain/FicheComponent/CaracteristicsManager.cs" />
         <option value="$PROJECT_DIR$/Domain/IFiche.cs" />
         <option value="$PROJECT_DIR$/Domain/FicheComponent/CharacterSkill.cs" />
-        <option value="$PROJECT_DIR$/Domain/FicheDomain.cs" />
         <option value="$PROJECT_DIR$/Infrastructure/Factories/FicheFactory.cs" />
         <option value="$PROJECT_DIR$/Models/FicheModel/BasicInfo.cs" />
         <option value="$PROJECT_DIR$/Models/FicheModel/db_fiche_persoContext.cs" />
@@ -72,11 +73,15 @@
         <option value="$PROJECT_DIR$/API/Startup.cs" />
         <option value="$PROJECT_DIR$/Infrastructure/Factories/FicheAutomatedFactory.cs" />
         <option value="$PROJECT_DIR$/Domain/FicheComponent/BasicCharacterInfo.cs" />
-        <option value="$PROJECT_DIR$/API/MappingProfile.cs" />
         <option value="$PROJECT_DIR$/Infrastructure/User/UserRepository.cs" />
         <option value="$PROJECT_DIR$/Entities/User.cs" />
         <option value="$PROJECT_DIR$/API/Controllers/UsersController.cs" />
+        <option value="$PROJECT_DIR$/Domain/FicheComponent/Attaque.cs" />
+        <option value="$PROJECT_DIR$/Domain/FicheComponent/Sort.cs" />
+        <option value="$PROJECT_DIR$/API/MappingProfile.cs" />
         <option value="$PROJECT_DIR$/API/Controllers/FicheController.cs" />
+        <option value="$PROJECT_DIR$/Domain/FicheComponent/Competence.cs" />
+        <option value="$PROJECT_DIR$/Domain/FicheDomain.cs" />
       </list>
     </option>
   </component>
@@ -239,7 +244,8 @@
       <workItem from="1607693327113" duration="18040000" />
       <workItem from="1607800549233" duration="224000" />
       <workItem from="1607858621053" duration="2719000" />
-      <workItem from="1607947410202" duration="604000" />
+      <workItem from="1607947410202" duration="2896000" />
+      <workItem from="1608028017792" duration="4337000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1605697115973</created>
@@ -304,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607626220545</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Project initialisation">
+      <created>1607964373155</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1607964373155</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,11 +328,41 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
           </value>
         </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
@@ -334,9 +377,14 @@
     <MESSAGE value="Implemention of EntityFramework for testing with postman&#10;&#10;With the cs project files (sorry)" />
     <MESSAGE value="Correction of the references for testing" />
     <MESSAGE value="Installing nu-get identyModeltoken for everyProject" />
-    <option name="LAST_COMMIT_MESSAGE" value="Installing nu-get identyModeltoken for everyProject" />
+    <MESSAGE value="Project initialisation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project initialisation" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="708" y="344" key="#Notifications" timestamp="1607964392969">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="708" y="344" key="#Notifications/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607964392969" />
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607629726112">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -361,28 +409,28 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="767" y="225" key="Github.UntrackedFilesDialog/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605696995255" />
-    <state width="1082" height="217" key="GridCell.Tab.0.bottom" timestamp="1607884178158">
+    <state width="1079" height="217" key="GridCell.Tab.0.bottom" timestamp="1608032062475">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1082" height="217" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607884178158" />
+    <state width="1079" height="217" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608032062475" />
     <state width="1877" height="218" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606691278314" />
     <state width="1860" height="149" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607859543467" />
-    <state width="1082" height="217" key="GridCell.Tab.0.center" timestamp="1607884178157">
+    <state width="1079" height="217" key="GridCell.Tab.0.center" timestamp="1608032062475">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1082" height="217" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607884178157" />
+    <state width="1079" height="217" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608032062475" />
     <state width="1877" height="218" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606691278314" />
     <state width="1860" height="149" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607859543465" />
-    <state width="1082" height="217" key="GridCell.Tab.0.left" timestamp="1607884178157">
+    <state width="1079" height="217" key="GridCell.Tab.0.left" timestamp="1608032062474">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1082" height="217" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607884178157" />
+    <state width="1079" height="217" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608032062474" />
     <state width="1877" height="218" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606691278313" />
     <state width="1860" height="149" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607859543465" />
-    <state width="1082" height="217" key="GridCell.Tab.0.right" timestamp="1607884178158">
+    <state width="1079" height="217" key="GridCell.Tab.0.right" timestamp="1608032062475">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1082" height="217" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607884178158" />
+    <state width="1079" height="217" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608032062475" />
     <state width="1877" height="218" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606691278314" />
     <state width="1860" height="149" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607859543466" />
     <state width="1877" height="325" key="GridCell.Tab.1.bottom" timestamp="1606659617459">
@@ -465,10 +513,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607621627737" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1607626223610">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1607964382377">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607626223610" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607964382377" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606377255415" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1606652735352">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -479,14 +527,14 @@
     </state>
     <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1606532005781" />
     <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607859361300" />
-    <state x="-1850" y="162" width="1265" height="783" key="dock-window-1" timestamp="1607699577055">
+    <state x="-1755" y="69" width="1577" height="778" key="dock-window-1" timestamp="1608029266082">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1850" y="162" width="1265" height="783" key="dock-window-1/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607699577055" />
-    <state x="-1390" y="161" width="1265" height="783" key="dock-window-2" timestamp="1607699577056">
+    <state x="-1755" y="69" width="1577" height="778" key="dock-window-1/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608029266082" />
+    <state x="-1834" y="83" width="1577" height="778" key="dock-window-2" timestamp="1608029266082">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1390" y="161" width="1265" height="783" key="dock-window-2/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607699577056" />
+    <state x="-1834" y="83" width="1577" height="778" key="dock-window-2/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608029266082" />
     <state x="-1932" y="144" width="1265" height="783" key="dock-window-3" timestamp="1607700138435">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
@@ -519,10 +567,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="421" key="git4idea.remote.GitConfigureRemotesDialog/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605697090079" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1606653538165">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1608031974502">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1606527698756" />
+    <state x="616" y="240" key="run.anything.popup/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608031974502" />
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606653538165" />
   </component>
   <component name="XDebuggerManager">
