@@ -550,7 +550,7 @@ namespace Models.FicheModel
 
             modelBuilder.Entity<Sort>(entity =>
             {
-                entity.HasKey(e => e.IdSort)
+                entity.HasKey(e => new {e.IdSort,e.IdFiche})
                     .HasName("sorts_pk")
                     .IsClustered(false);
 

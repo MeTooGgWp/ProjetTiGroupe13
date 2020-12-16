@@ -103,7 +103,6 @@ namespace API.Controllers
         
        // [Authorize]
         [HttpPut]
-        [Route("{id_fiche:int}/{id_joueur}")] //A définir
         public ActionResult Put([FromBody] FicheDomain fiche)
         {
             
