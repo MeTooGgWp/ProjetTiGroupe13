@@ -550,13 +550,13 @@ namespace Models.FicheModel
 
             modelBuilder.Entity<Sort>(entity =>
             {
-                entity.HasKey(e => new {e.IdSort,e.IdFiche})
+                entity.HasKey(e => new {e.NomSort,e.IdFiche})
                     .HasName("sorts_pk")
                     .IsClustered(false);
 
                 entity.ToTable("sorts");
 
-                entity.Property(e => e.IdSort).HasColumnName("id_sort");
+                //entity.Property(e => e.IdSort).HasColumnName("id_sort");
 
                 entity.Property(e => e.DescriptionSort)
                     .IsRequired()

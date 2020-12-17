@@ -74,7 +74,7 @@ namespace ProjetctTiGr13
                 .AllowAnyMethod()
                 .AllowAnyHeader());
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
 
             app.UseRouting();
 

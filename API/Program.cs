@@ -1,15 +1,15 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 using Models.FicheModel;
+using ProjetctTiGr13;
 
-namespace ProjetctTiGr13
+namespace API
 {
     public class Program
     {
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
-            Fiche fiche = new Fiche();
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>

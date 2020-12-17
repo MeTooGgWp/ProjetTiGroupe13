@@ -171,6 +171,7 @@ namespace API
 
             CreateMap<Models.FicheModel.Sort, Sort>();
             CreateMap<Sort, Models.FicheModel.Sort>();
+                //.ForMember(dest => dest.IdSort, act => act.Ignore());
 
             CreateMap<CompetencesFiche, Competence>();
             CreateMap<Competence, CompetencesFiche>();
