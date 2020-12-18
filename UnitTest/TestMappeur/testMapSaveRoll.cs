@@ -23,9 +23,10 @@ namespace UnitTest.TestMappeur
             {
                 cfg.AddProfile(new MappingProfile());
             });
+            _mapper = mapperConfiguration.CreateMapper();
 
             _saveRollManagerDomain = new SaveRollManager();
-            _saveRollsManager = new Models.FicheModel.SaveRollsManager
+            _saveRollsManager = new SaveRollsManager
             {
                 JdsForce = false, JdsDexterite = false, JdsConstitution = false, JdsIntelligence = false,
                 JdsSagesse = false, JdsCharisme = false
