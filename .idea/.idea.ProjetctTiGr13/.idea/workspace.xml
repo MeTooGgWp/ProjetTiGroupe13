@@ -11,7 +11,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a47e4d28-07ca-4f9b-8008-fb72bb49fb84" name="Default Changelist" comment="Finalisation projet (avant test Unitaire)">
-      <change beforePath="$PROJECT_DIR$/API/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjetctTiGr13.sln.DotSettings.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTest/ProjetctTiGr13Test/UserServiceTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTest/TestMappeur/testMapAttaque.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTest/TestMappeur/testMapDeathRoll.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTest/UnitTest.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTest/testDomain/test.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjetctTiGr13/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjetctTiGr13/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjetctTiGr13/.idea/shelf/Uncommitted_changes_before_Update_at_13_12_2020_16_34__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjetctTiGr13/.idea/shelf/Uncommitted_changes_before_Update_at_13_12_2020_16_34__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjetctTiGr13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjetctTiGr13/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/AuthenticateResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/AuthenticateResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13.sln" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetctTiGr13.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetctTiGr13/Services/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetctTiGr13/Services/UserService.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,16 +32,39 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/441B1F1D-0007-4533-BF4B-294EFD4F790B/46/MvcCoreLoggerExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C85CE05F-5B24-41A6-8DB9-8F539D664EEF/21/HttpConnection.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C85CE05F-5B24-41A6-8DB9-8F539D664EEF/2B/HttpConnectionMiddleware.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C85CE05F-5B24-41A6-8DB9-8F539D664EEF/11/HttpsConnectionMiddleware.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/441B1F1D-0007-4533-BF4B-294EFD4F790B/11C/ResourceInvoker.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/A9C37662-579A-499A-A4DE-B3C85349280D/25F/AsyncMethodBuilder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/441B1F1D-0007-4533-BF4B-294EFD4F790B/6D/ActionEndpointFactory.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/A9C37662-579A-499A-A4DE-B3C85349280D/14E/ExecutionContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/CF23F803-6603-41BB-8074-AD1FFDA9DE78/13/EndpointMiddleware.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/A9C37662-579A-499A-A4DE-B3C85349280D/16F/TaskContinuation.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/AB0E3398-3BC1-4635-8E71-8B916CDB3B04/3/AuthorizationMiddleware.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/A9C37662-579A-499A-A4DE-B3C85349280D/16B/Task.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/A9C37662-579A-499A-A4DE-B3C85349280D/168/Future.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/F7AFAF01-9550-4C73-87BE-31162333F4B5/6/AuthenticationMiddleware.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/A9C37662-579A-499A-A4DE-B3C85349280D/169/FutureFactory.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/51E24A0A-94B8-4A40-8B61-093C7CD4D020/1D/LazyAsyncResult.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/51E24A0A-94B8-4A40-8B61-093C7CD4D020/F/HelperAsyncResults.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/51E24A0A-94B8-4A40-8B61-093C7CD4D020/2F/SslStream.Implementation.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8A4B78ED-3B89-4C72-B66D-DAF34D43E906/4/Logger.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/51E24A0A-94B8-4A40-8B61-093C7CD4D020/E/FixedSizeReader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B9122C9D-8E0F-47D3-9D53-746E4CD7F3B5/E/HostingApplicationDiagnostics.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/A9C37662-579A-499A-A4DE-B3C85349280D/262/AsyncValueTaskMethodBuilder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B9122C9D-8E0F-47D3-9D53-746E4CD7F3B5/D/HostingApplication.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C85CE05F-5B24-41A6-8DB9-8F539D664EEF/5A/HttpProtocol.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1D22FF42-A1D2-4006-9C5C-ABB5EBA7CA24/6/JwtSecurityTokenHandler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/UnitTest/testDomain/test.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4897A230-3721-46F4-B441-62D1C15092D5/1/HostFilteringMiddleware.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/A9C37662-579A-499A-A4DE-B3C85349280D/8C/Int32.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Infrastructure/Class1.cs" />
-        <option value="$PROJECT_DIR$/Entities/Class1.cs" />
-        <option value="$PROJECT_DIR$/Infrastructure/Factories/UserFactory.cs" />
-        <option value="$PROJECT_DIR$/Helpers/Class1.cs" />
-        <option value="$PROJECT_DIR$/Models/Class1.cs" />
-        <option value="$PROJECT_DIR$/Service/Class1.cs" />
-        <option value="$PROJECT_DIR$/ProjetctTiGr13/Services/UserService.cs" />
         <option value="$PROJECT_DIR$/Models/FicheModel/Attaque.cs" />
         <option value="$PROJECT_DIR$/Models/FicheModel/CaracteristicManager.cs" />
         <option value="$PROJECT_DIR$/Models/FicheModel/CharacterMastery.cs" />
@@ -43,7 +77,6 @@
         <option value="$PROJECT_DIR$/Models/FicheModel/PersonalityAndBackground.cs" />
         <option value="$PROJECT_DIR$/Models/FicheModel/SaveRollsManager.cs" />
         <option value="$PROJECT_DIR$/Models/AuthenticateRequest.cs" />
-        <option value="$PROJECT_DIR$/Models/AuthenticateResponse.cs" />
         <option value="$PROJECT_DIR$/Infrastructure/User/IUserReposory.cs" />
         <option value="$PROJECT_DIR$/Infrastructure/User/UserSqlServer.cs" />
         <option value="$PROJECT_DIR$/ProjetctTiGr13/Properties/launchSettings.json" />
@@ -75,16 +108,27 @@
         <option value="$PROJECT_DIR$/Models/FicheModel/CharacterStatus.cs" />
         <option value="$PROJECT_DIR$/API/Controllers/FicheController.cs" />
         <option value="$PROJECT_DIR$/API/Properties/launchSettings.json" />
+        <option value="$PROJECT_DIR$/UnitTest/testDomain/test.cs" />
+        <option value="$PROJECT_DIR$/ProjetctTiGr13/Services/UserService.cs" />
+        <option value="$PROJECT_DIR$/UnitTest/ProjetctTiGr13Test/USerServiceTest.cs" />
+        <option value="$PROJECT_DIR$/UnitTest/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/Models/AuthenticateResponse.cs" />
+        <option value="$PROJECT_DIR$/UnitTest/ProjetctTiGr13Test/UserServiceTest.cs" />
+        <option value="$PROJECT_DIR$/UnitTest/TestMappeur/testMapDeathRoll.cs" />
+        <option value="$PROJECT_DIR$/UnitTest/TestMappeur/testMapAttaque.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1kSb2vn5kJojIHMsaYBJhFc9YRV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.48842338" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.2646086" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -243,6 +287,7 @@
       <workItem from="1608136090578" duration="7618000" />
       <workItem from="1608198816170" duration="4756000" />
       <workItem from="1608279630578" duration="5284000" />
+      <workItem from="1608307220693" duration="7681000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1605697115973</created>
@@ -355,6 +400,26 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnitTestsCoverage.Settings">
+    <option name="coveragePercentColumnWidth" value="150" />
+    <option name="sortOrder" value="DESCENDING" />
+    <option name="sortedColumn" value="1" />
+    <option name="symbolColumnWidth" value="84" />
+    <coverage-tree-state>
+      <expand>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 10% 973/1081" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 10% 973/1081" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Domain 3% 251/260" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+      </expand>
+      <select />
+    </coverage-tree-state>
+  </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
@@ -400,6 +465,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Commit Class Fiche et ses composants (sans DAO)" />
@@ -436,6 +502,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="783" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1606654960175" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1608307188789">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608307188789" />
     <state x="828" y="417" key="Github.ShareDialog" timestamp="1605696987371">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -444,30 +514,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="767" y="225" key="Github.UntrackedFilesDialog/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605696995255" />
-    <state width="1050" height="217" key="GridCell.Tab.0.bottom" timestamp="1608306801697">
+    <state width="1877" height="149" key="GridCell.Tab.0.bottom" timestamp="1608311340089">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1050" height="217" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608306801697" />
     <state width="1877" height="218" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606691278314" />
-    <state width="1860" height="149" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607859543467" />
-    <state width="1050" height="217" key="GridCell.Tab.0.center" timestamp="1608306801697">
+    <state width="1877" height="149" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608311340089" />
+    <state width="1877" height="149" key="GridCell.Tab.0.center" timestamp="1608311340088">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1050" height="217" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608306801697" />
     <state width="1877" height="218" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606691278314" />
-    <state width="1860" height="149" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607859543465" />
-    <state width="1050" height="217" key="GridCell.Tab.0.left" timestamp="1608306801697">
+    <state width="1877" height="149" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608311340088" />
+    <state width="1877" height="149" key="GridCell.Tab.0.left" timestamp="1608311340088">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1050" height="217" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608306801697" />
     <state width="1877" height="218" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606691278313" />
-    <state width="1860" height="149" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607859543465" />
-    <state width="1050" height="217" key="GridCell.Tab.0.right" timestamp="1608306801697">
+    <state width="1877" height="149" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608311340088" />
+    <state width="1877" height="149" key="GridCell.Tab.0.right" timestamp="1608311340089">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1050" height="217" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608306801697" />
     <state width="1877" height="218" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606691278314" />
-    <state width="1860" height="149" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607859543466" />
+    <state width="1877" height="149" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608311340089" />
     <state width="938" height="375" key="GridCell.Tab.1.bottom" timestamp="1608268085524">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -552,18 +622,24 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="207" y="62" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606384098215" />
-    <state x="642" y="189" key="Rider.ProjectTemplateDialog.Size" timestamp="1607425303228">
+    <state x="642" y="189" key="Rider.ProjectTemplateDialog.Size" timestamp="1608308357166">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="642" y="189" key="Rider.ProjectTemplateDialog.Size/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607425303228" />
-    <state x="794" y="221" key="RiderGenerateDialog" timestamp="1607623371530">
+    <state x="642" y="189" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1040@0.0.1920.1040" timestamp="1608308357166" />
+    <state x="794" y="221" key="RiderGenerateDialog" timestamp="1608310989982">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="221" key="RiderGenerateDialog/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607623371530" />
+    <state x="794" y="221" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608310989982" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1607621627737">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607621627737" />
+    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1608309130555">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608309130555" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1608306789866">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -573,11 +649,15 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1606652735352" />
-    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607859361300">
+    <state x="571" y="145" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1608310930995">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="571" y="145" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1608310930994" />
+    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608307060105">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1606532005781" />
-    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607859361300" />
+    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608307060105" />
     <state x="-1755" y="69" width="1577" height="778" key="dock-window-1" timestamp="1608029266082">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>

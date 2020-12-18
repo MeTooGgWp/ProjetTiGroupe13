@@ -27,12 +27,6 @@ namespace ProjetctTiGr13.Services
     {
 
         private UserRepository Repository;
-         
-        // users hardcoded for simplicity, store in a db with hashed passwords in production applications
-        private List<User> _users = new List<User>
-        {
-            new User { pseudo = "test", mail = "test@gmail.com", Password = "test" }
-        };
 
         private readonly AppSettings _appSettings;
 

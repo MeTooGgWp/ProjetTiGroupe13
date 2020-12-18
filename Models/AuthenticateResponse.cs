@@ -13,5 +13,11 @@ namespace Models
             Pseudo = user.pseudo;
             Token = token;
         }
+
+        public override bool Equals(object? obj)
+        {
+            var other = (AuthenticateResponse) obj;
+            return this.Pseudo == other.Pseudo && this.Token == other.Token;
+        }
     }
 }

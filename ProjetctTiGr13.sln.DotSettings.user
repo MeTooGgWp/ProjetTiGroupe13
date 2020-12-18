@@ -1,0 +1,22 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=55a54138_002Dd1d8_002D4a41_002D90eb_002D3dbea038b272/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from Solution" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Solution /&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5cbe9f0f_002D4d9e_002D4210_002Dbbdc_002Dd9e0ff87d723/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Authenticate_AuthenticateRequestValid_returnAuthenticateResponseValid" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::C2DC92BD-9C64-45EE-A29D-B561D204F820::.NETCoreApp,Version=v3.1::UnitTest.ProjetctTiGr13Test.UserServiceTest.Authenticate_AuthenticateRequestValid_returnAuthenticateResponseValid&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=71e622e1_002D6259_002D4984_002D976f_002D90cbc57f9c0a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="UserServiceTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::C2DC92BD-9C64-45EE-A29D-B561D204F820::.NETCoreApp,Version=v3.1::UnitTest.ProjetctTiGr13Test.UserServiceTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b7d8b75c_002D889a_002D46e1_002D9e63_002D815129c3b11a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="UserServiceTest #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Or&gt;&#xD;
+    &lt;TestAncestor&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::C2DC92BD-9C64-45EE-A29D-B561D204F820::.NETCoreApp,Version=v3.1::UnitTest.ProjetctTiGr13Test.UserServiceTest&lt;/TestId&gt;&#xD;
+    &lt;/TestAncestor&gt;&#xD;
+    &lt;ProjectFile&gt;C2DC92BD-9C64-45EE-A29D-B561D204F820/d:TestMappeur/f:testMapDeathRoll.cs&lt;/ProjectFile&gt;&#xD;
+  &lt;/Or&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
