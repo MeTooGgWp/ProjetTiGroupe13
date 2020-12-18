@@ -12,7 +12,6 @@
         <e p="Controllers" t="Include">
           <e p="FicheController.cs" t="Include" />
           <e p="UsersController.cs" t="Include" />
-          <e p="WeatherForecastController.cs" t="Include" />
         </e>
         <e p="MappingProfile.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
@@ -27,7 +26,6 @@
           <e p="launchSettings.json" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
-        <e p="WeatherForecast.cs" t="Include" />
       </e>
       <e p="Domain" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
@@ -73,14 +71,8 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Database.cs" t="Include" />
         <e p="Factories" t="Include">
-          <e p="FicheFactory.cs" t="Include" />
           <e p="IInstanceFromReaderFactory.cs" t="Include" />
           <e p="UserFactory.cs" t="Include" />
-        </e>
-        <e p="Fiche" t="Include">
-          <e p="IFicheColumnsName.cs" t="Include" />
-          <e p="IFicheRepository.cs" t="Include" />
-          <e p="SqlServerFicheRepository.cs" t="Include" />
         </e>
         <e p="Infrastructure.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
