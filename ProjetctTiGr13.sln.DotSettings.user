@@ -12,10 +12,15 @@
     &lt;TestId&gt;NUnit3x::C2DC92BD-9C64-45EE-A29D-B561D204F820::.NETCoreApp,Version=v3.1::UnitTest.ProjetctTiGr13Test.UserServiceTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b7d8b75c_002D889a_002D46e1_002D9e63_002D815129c3b11a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="UserServiceTest #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a7942c56_002D93ee_002D4022_002Db3fd_002Dfaf7f97c4744/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from Solution #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Solution /&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b7d8b75c_002D889a_002D46e1_002D9e63_002D815129c3b11a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="UserServiceTest #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;Or&gt;&#xD;
     &lt;TestAncestor&gt;&#xD;
       &lt;TestId&gt;NUnit3x::C2DC92BD-9C64-45EE-A29D-B561D204F820::.NETCoreApp,Version=v3.1::UnitTest.ProjetctTiGr13Test.UserServiceTest&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::C2DC92BD-9C64-45EE-A29D-B561D204F820::.NETCoreApp,Version=v3.1::UnitTest.TestMappeur.testMapAttaque&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::C2DC92BD-9C64-45EE-A29D-B561D204F820::.NETCoreApp,Version=v3.1::UnitTest.TestMappeur.testMapBasicCharacterInfo&lt;/TestId&gt;&#xD;
     &lt;/TestAncestor&gt;&#xD;
     &lt;ProjectFile&gt;C2DC92BD-9C64-45EE-A29D-B561D204F820/d:TestMappeur/f:testMapDeathRoll.cs&lt;/ProjectFile&gt;&#xD;
   &lt;/Or&gt;&#xD;

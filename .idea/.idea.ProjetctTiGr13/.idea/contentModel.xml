@@ -175,6 +175,7 @@
         <e p="testDomain" t="Include" />
         <e p="TestMappeur" t="Include">
           <e p="testMapAttaque.cs" t="Include" />
+          <e p="testMapBasicCharacterInfo.cs" t="Include" />
           <e p="testMapDeathRoll.cs" t="Include" />
         </e>
         <e p="UnitTest.csproj" t="IncludeRecursive" />
