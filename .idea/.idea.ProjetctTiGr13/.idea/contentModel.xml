@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\louis\.nuget\packages\microsoft.net.test.sdk\16.5.0\build\netcoreapp2.1" t="Include">
+    <e p="C:\Users\Robin claes\.nuget\packages\microsoft.net.test.sdk\16.5.0\build\netcoreapp2.1" t="Include">
       <e p="Microsoft.NET.Test.Sdk.Program.cs" t="Include" />
     </e>
-    <e p="C:\Users\louis\.nuget\packages\microsoft.testplatform.testhost\16.5.0\build\netcoreapp2.1\x64\testhost.dll" t="Include" />
-    <e p="C:\Users\louis\.nuget\packages\microsoft.testplatform.testhost\16.5.0\build\netcoreapp2.1\x64\testhost.exe" t="Include" />
-    <e p="C:\Users\louis\.nuget\packages\nunit3testadapter\3.16.1\build\netcoreapp2.1\nunit.engine.api.dll" t="Include" />
-    <e p="C:\Users\louis\.nuget\packages\nunit3testadapter\3.16.1\build\netcoreapp2.1\nunit.engine.dll" t="Include" />
-    <e p="C:\Users\louis\.nuget\packages\nunit3testadapter\3.16.1\build\netcoreapp2.1\NUnit3.TestAdapter.dll" t="Include" />
-    <e p="C:\Users\louis\.nuget\packages\nunit3testadapter\3.16.1\build\netcoreapp2.1\NUnit3.TestAdapter.pdb" t="Include" />
-    <e p="C:\Users\louis\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\louis\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_ProjetctTiGr13.1990796749.00" t="ExcludeRecursive" />
-    <e p="D:\Helha\b3\RiderProjects\ProjetTiGroupe13" t="IncludeFlat">
+    <e p="C:\Users\Robin claes\.nuget\packages\microsoft.testplatform.testhost\16.5.0\build\netcoreapp2.1\x64\testhost.dll" t="Include" />
+    <e p="C:\Users\Robin claes\.nuget\packages\microsoft.testplatform.testhost\16.5.0\build\netcoreapp2.1\x64\testhost.exe" t="Include" />
+    <e p="C:\Users\Robin claes\.nuget\packages\nunit3testadapter\3.16.1\build\netcoreapp2.1\nunit.engine.api.dll" t="Include" />
+    <e p="C:\Users\Robin claes\.nuget\packages\nunit3testadapter\3.16.1\build\netcoreapp2.1\nunit.engine.dll" t="Include" />
+    <e p="C:\Users\Robin claes\.nuget\packages\nunit3testadapter\3.16.1\build\netcoreapp2.1\NUnit3.TestAdapter.dll" t="Include" />
+    <e p="C:\Users\Robin claes\.nuget\packages\nunit3testadapter\3.16.1\build\netcoreapp2.1\NUnit3.TestAdapter.pdb" t="Include" />
+    <e p="C:\Users\Robin claes\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Robin claes\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_ProjetctTiGr13.322740246.00" t="ExcludeRecursive" />
+    <e p="E:\projetTM\ProjetTiGroupe13" t="IncludeFlat">
       <e p="API" t="IncludeRecursive">
         <e p="API.csproj" t="IncludeRecursive" />
         <e p="appsettings.Development.json" t="Include" />
@@ -170,13 +170,14 @@
           </e>
         </e>
         <e p="ProjetctTiGr13Test" t="Include">
-          <e p="USerServiceTest.cs" t="Include" />
+          <e p="UserServiceTest.cs" t="Include" />
         </e>
         <e p="testDomain" t="Include" />
         <e p="TestMappeur" t="Include">
           <e p="testMapAttaque.cs" t="Include" />
           <e p="testMapBasicCharacterInfo.cs" t="Include" />
           <e p="testMapDeathRoll.cs" t="Include" />
+          <e p="testMapSaveRoll.cs" t="Include" />
         </e>
         <e p="UnitTest.csproj" t="IncludeRecursive" />
       </e>

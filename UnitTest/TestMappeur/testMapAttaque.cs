@@ -2,6 +2,8 @@
 using AutoMapper;
 using NUnit.Framework;
 using ProjetctTiGr13.Domain.FicheComponent;
+using Models.FicheModel;
+using Attaque = ProjetctTiGr13.Domain.FicheComponent.Attaque;
 
 namespace UnitTest.TestMappeur
 {
